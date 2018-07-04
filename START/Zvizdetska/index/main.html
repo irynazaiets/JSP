@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+	<title>MusicStore</title>
+	<meta charset="utf-8" />
+	<!-- <meta http-equip="Content-Type" content="text/html; charset=UTF-8"/> -->
+	<meta name="keywords" content="music, videos, search"/>
+	<meta name="description" content="This site is create for searching music"/>
+	
+	<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+	<!-- <link href="img/logo.png" rel="" type="image/x-icon"/> -->
+
+	<link href="materialize/css/materialize.css" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link href="css/main.css" rel="stylesheet" type="text/css"/>
+
+	<!--  Scripts-->
+	
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="materialize/js/materialize.js"></script>
+	<script src="materialize/js/init.js"></script>
+	
+         
+
+	<script type="application/javascript" src="js/js_f.js"></script>
+	<script type="application/javascript" src="js/js_2.js"></script>
+
+</head>
+<body onload="loadContent()">
+	<header class="page-footer">
+		<a href="/">
+			<img src="img/logo.png" alt="logo" />
+		</a>
+		<span>MusicStore</span>
+		<div class="display-right">
+			<a href="index.html" class="button1 btn-input"></a>
+			<a href="main.html" class="button1 btn-output"></a>
+			<!-- <a href="logout/?redirect=" class="button1 btn-output"></a> -->
+		</div>
+	</header>
+	<main>
+
+		<div class="parallax-container">
+			<div class="parallax"><img src="img/par.jpg"></div>
+			<form id="form" onsubmit="return searchMusic(this);">
+				<input type="text" id="name" placeholder=".............." value="" />
+				<div class="cont">
+					<input type="submit" value="Пошук" class="SearchButton" />
+				</div>
+			</form>
+    	</div>
+		
+		<div id="iframes">
+			<!--<iframe src="footer.html" style="border:2px solid grey;height: 300px;width:100%"></iframe>-->
+			<iframe id="iframe1" style="width: 45%; height: 500px" src=""></iframe>
+			<iframe id="iframe2" style="width: 45%; height: 500px" src=""></iframe>
+		</div>
+		<div class="parallax-container">
+			<div class="parallax"><img src="img/par1.jpg"></div>
+    	</div>
+	</main>
+
+</body>
+</html>

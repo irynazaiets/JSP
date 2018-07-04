@@ -1,0 +1,200 @@
+[
+	{
+		"name":"Bob James - Blue Note NYC",
+		"url" :"https://www.youtube.com/embed/TQg_osPasBQ",
+		"kind": "Jazz",
+		"categorie": "Relax"
+	},
+	{
+		"name":"Bluey from Incognito - Hold On ",
+		"url": "https://www.youtube.com/embed/PfLF84nP-TA?ecver=1",
+		"kind": "Jazz",
+		"categorie": "Sport",
+	},
+	{
+		"name":"INCOGNITO - Above The Night",
+		"url": "https://www.youtube.com/embed/Htx3bCShj_c?ecver=1",
+		"kind": "Jazz",
+		"categorie": "Sleeping"
+	},
+	{
+		"name":"On The Road with PHJB #7: Gabriel/Maedgen backstage duet",
+		"url": "https://www.youtube.com/embed/EAQ1IFU8Hck?ecver=1",
+		"kind": "Jazz",
+		"categorie": "Studing"
+	},
+	{
+		"name":"Diana Krall - Wallflower Album Medley",
+		"url": "https://www.youtube.com/embed/VaV_JnoAtAE?ecver=1",
+		"kind": "Jazz",
+		"categorie": "Sleeping"
+	},
+	{
+		"name":"Billie Holiday & Louis Armstrong - Dixie Music Man",
+		"url": "https://www.youtube.com/embed/rlyrBPkkXvY?ecver=1",
+		"kind": "Jazz",
+		"categorie": "Trip"
+	},
+	{
+		"name":"Ray Charles - Hit The Road Jack",
+		"url": "https://www.youtube.com/embed/0rEsVp5tiDQ?ecver=1",
+		"kind": "Jazz",
+		"categorie": "Party"
+	},
+	{
+		"name":"Frank Sinatra - I`ve Got You Under My Skin",
+		"url": "https://www.youtube.com/embed/FiSKXxWgA4w?ecver=1",
+		"kind": "Jazz",
+		"categorie": "Relax"
+	},
+	{
+		"name":"Nat King Cole -  Unforgettable",
+		"url": "https://www.youtube.com/embed/Fy_JRGjc1To?ecver=1",
+		"kind": "Jazz",
+		"categorie": "Relax"
+	},
+	{
+		"name":"Louis Prima - Just a Gigolo & I Ain't Go Nobody",
+		"url": "https://www.youtube.com/embed/O-a8kLtJSJ4",
+		"kind": "Jazz",
+		"categorie": "Party"
+	},
+	{
+		"name":"Benny Goodman - Sing Sing Sing ",
+		"url": "https://www.youtube.com/embed/Z2Z1DWIgfCs?ecver=1",
+		"kind": "Jazz",
+		"categorie": "Sport"
+	},
+	{
+		"name":"Marilyn Monroe - I Wanna Be Loved By You",
+		"url": "https://www.youtube.com/embed/WQIvhotZSUw?ecver=1",
+		"kind": "Jazz",
+		"categorie": "Studing"
+	},
+	{
+		"name":"- Israel Kamakawiwoʻole - Somewhere over the Rainbow ",
+		"url": "https://www.youtube.com/embed/V1bFr2SWP1I?ecver=1",
+		"kind": "Jazz",
+		"categorie": "Studing"
+	},
+	{
+		"name":"Ragtime Piano : SCOTT JOPLIN -  The Entertainer",
+		"url": "https://www.youtube.com/embed/fPmruHc4S9Q?ecver=1",
+		"kind": "Jazz",
+		"categorie": "Sport"
+	},
+	{
+		"name":"Frank Sinatra - Autumn Leaves",
+		"url": "https://www.youtube.com/embed/iF8z5fJfvgM?ecver=1",
+		"kind": "Jazz",
+		"categorie": "Trip"
+	},
+	{
+		"name":"Peggy Lee - Fever",
+		"url": "https://www.youtube.com/embed/s5Uw1lJ2C9U?ecver=1",
+		"kind": "Jazz",
+		"categorie": "Trip"
+	},
+	{
+		"name":"Judy Garland - Somewhere Over The Rainbow ",
+		"url": "https://www.youtube.com/embed/U016JWYUDdQ?ecver=1",
+		"kind": "Jazz",
+		"categorie": "Studing"
+	},
+	{
+		"name":"Kygo vs U2 - You're The Best Thing About Me",
+		"url": "https://www.youtube.com/embed/XqwIP1_jY-0?ecver=1",
+		"kind": "Electro",
+		"categorie": "Studing"
+	},
+	{
+		"name":"Fatboy Slim - Push The Tempo",
+		"url": "https://www.youtube.com/embed/RGpkNPbSa2Q?ecver=1",
+		"kind": "Electro",
+		"categorie": "Sport"
+	},
+	{
+		"name":"Bob Sinclar feat. Akon - Til The Sun Rise Up",
+		"url": "https://www.youtube.com/embed/HC7Ql5xoHfk?ecver=1",
+		"kind": "Electro",
+		"categorie": "Studing"
+	},
+	{
+		"name":"Dimitri Vegas & Like Mike vs David Guetta feat. Kiiara - Complicated ",
+		"url": "https://www.youtube.com/embed/w0EF3AxJwLU?ecver=1",
+		"kind": "Electro",
+		"categorie": "Relax"
+	},
+	{
+		"name":"David Guetta - One Voice feat. Mikky Ekko",
+		"url": "https://www.youtube.com/embed/PwIVlVUvQEI?ecver=1",
+		"kind": "Electro",
+		"categorie": "Trip"
+	},
+	{
+		"name":"Moncho Chavea ft. Omar Montes - Conmigo",
+		"url": "https://www.youtube.com/embed/BvkQHtsveHw?ecver=1",
+		"kind": "Electro",
+		"categorie": "Sleeping"
+	},
+	{
+		"name":"Daft Punk - Digital Love",
+		"url": "https://www.youtube.com/embed/QOngRDVtEQI?ecver=1",
+		"kind": "Electro",
+		"categorie": "Trip"
+	},
+	{
+		"name":"Martin Garrix - Pizza",
+		"url": "https://www.youtube.com/embed/JsKIAO11q1Y?ecver=1",
+		"kind": "Electro",
+		"categorie": "Sleeping"
+	},
+	{
+		"name":"deadmau5 - Some Chords",
+		"url": "https://www.youtube.com/embed/MEQMkzjcLEA?ecver=1",
+		"kind": "Electro",
+		"categorie": "Relax"
+	},
+	{
+		"name":"deadmau5 feat. Chris James - The Veldt ",
+		"url": "https://www.youtube.com/embed/_esYONwdKuw?ecver=1",
+		"kind": "Electro",
+		"categorie": "Relax"
+	},
+	{
+		"name":"Martin Garrix - Animals",
+		"url": "https://www.youtube.com/embed/gCYcHz2k5x0?ecver=1",
+		"kind": "Electro",
+		"categorie": "Party"
+	},
+	{
+		"name":"Martin Garrix & Troye Sivan - There For You",
+		"url": "https://www.youtube.com/embed/pNNMr5glICM?ecver=1",
+		"kind": "Electro",
+		"categorie": "Party"
+	},
+	{
+		"name":"Dimitri Vegas & Like Mike - Stay A While ",
+		"url": "https://www.youtube.com/embed/GGawVPg9tvE?ecver=1",
+		"kind": "Electro",
+		"categorie": "Party"
+	},
+	{
+		"name":"Armin van Buuren & Garibay - I Need You",
+		"url": "https://www.youtube.com/embed/cNDQsJlvCYI?ecver=1",
+		"kind": "Electro",
+		"categorie": "Sport"
+	},
+	{
+		"name":"Tiesto - Elements of Life",
+		"url": "https://www.youtube.com/embed/EE7CXZ1Lyu4?ecver=1",
+		"kind": "Electro",
+		"categorie": "Sport"
+	},
+	{
+		"name":"Steve Aoki, Chris Lake & Tujamo feat. Kid Ink - Delirious ",
+		"url": "https://www.youtube.com/embed/344KGcW0HRY?ecver=1",
+		"kind": "Electro",
+		"categorie": "Trip"
+	}
+]

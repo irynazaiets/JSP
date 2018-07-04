@@ -1,0 +1,84 @@
+body{
+	font-family: 'Averia Libre', cursive;
+	text-indent: 20px;
+	font-size:11pt;
+}
+
+h3{
+	font-size:15pt;
+	display:none;
+}
+
+p{
+	padding:0;
+}
+
+h2{
+	font-size:12pt;
+	padding-left:5%;
+}
+
+.sngl{
+	font-weight:bold;
+	display:none;
+}
+.song{
+	white-space:pre-wrap;    
+	display:none;
+}
+
+.icon:hover{
+	transform:rotate(360deg);
+	transition-duration: 2s;
+	position:static;
+}
+
+button{
+	background-color: rgba(255,255,255,0.5);
+	border:none;
+	border-color:white;
+	outline: none;
+	margin-right: 8%;
+}
+
+h3~button {
+	margin-right:5%;
+	color:red;
+}
+
+#first{
+	margin-left:20%;
+}
+
+
+button h2{
+	display:none;
+}
+
+div{
+	display:none;
+}
+
+button ~ p{
+	display:none;	
+	color:#DA70D6;
+
+}
+
+#home {
+  background: url(img/rap/prlRap.jpg) center 0 repeat fixed; min-height: 500px;
+  height: 500px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+}
+#home article {
+  height: 550px;
+  position: absolute;
+  text-align: center;
+  top: 300px;
+  width: 100%;
+}
+
+

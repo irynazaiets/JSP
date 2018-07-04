@@ -1,0 +1,189 @@
+#main {
+	background-image: url("image/pink dust.png");
+	display: block;
+	width: 100%;
+	height: auto;
+}
+#main .container {
+	width: 600px;
+	height: auto;
+	padding-top: 1em;
+	padding-bottom: 2em;
+	background-color: rgba(240,240,238,0.2);
+	margin: 50px auto;
+	text-align:  center;
+	box-shadow: 0 -5px 0 #3adbfd;
+	border-radius: 0 0 10px 10px;
+	font-family: "Arial";
+}
+#main input::placeholder {
+	color: #555;
+}
+#main input[type="text"] {
+	background-color: white;
+	width: 270px;
+	height: 50px;
+	font-size: 16px;
+	margin-top: 10px;
+	border-radius: 4px;
+	padding-left: 30px;
+	padding-top: 5px;
+}
+
+#main input[type="password"] {
+	background-color: white;
+	width: 270px;
+	height: 50px;
+	margin-top: 10px;
+	font-size: 16px;
+	border-radius: 4px;
+	padding-left: 30px;
+}
+
+
+.dws-submit {
+	padding: 13px 130px;
+	margin: 10px 0;
+	font-size: 15px;
+	color: #fff;
+	background-color: #2ca8c6;
+	border: none;
+	border-bottom: 4px solid #6ee9fd;
+	cursor: pointer;
+}
+ 
+.dws-submit:hover {
+	transition: all 0.5s;
+	background: #12dfe2;
+	color: #2c536c;
+}
+
+a{
+	color:  #ffffff;
+}
+.dws-input::before {
+	font-family: "FontAwesome";
+	content: "\f007";
+	position: absolute;
+	margin-top: 15px;
+	font-size: 25px;
+	padding: 10px 0 0 7px;
+	color: #2c536c;
+}
+
+.dws-input:nth-child(2)::before {
+	content:"\f023";
+}
+
+.dws-input:hover::before {
+	color: #319ebc;
+	transition: all 0.3s;
+}
+
+.dws-input-1::before {
+	font-family: "FontAwesome";
+	content: "\f2c0";
+	position: absolute;
+	margin-top: 15px;
+	font-size: 25px;
+	padding: 10px 0 0 7px;
+	color: #2c536c;
+}
+
+.dws-input-1:nth-child(2)::before {
+content:"\f007";
+	position: absolute;
+}
+
+.dws-input-1:nth-child(3)::before {
+content:"\f023";
+	position: absolute;
+}
+
+.dws-input-1:nth-child(4)::before {
+content:"\f023";
+	position: absolute;
+}
+
+.dws-input-1:hover::before{
+	color: #319ebc;
+	transition: all 0.3s;
+}
+
+.gender {
+    position: relative;
+    margin: 15px auto;
+    height: 50px;
+    width: 300px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+}
+
+.switch-label {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: auto;
+    height: auto;
+    padding: 1px 20px;
+    margin: 1px 30px;
+    line-height: 45px !important;
+    font-size: 20px !important;
+    font-family: "Arial";
+    color: #535353;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.45);
+    cursor: pointer;
+}
+
+.switch-label-off {
+    padding-left: 2px !important;
+}
+
+.switch-label-on {
+    padding-right: 2px !important;
+}
+
+.switch-input {
+    display: none;
+}
+
+.switch-input:checked + .switch-label {
+    color: rgba(0, 0, 0, 0.65);
+    text-shadow: 0 1px rgba(255, 255, 255, 0.25);
+    -webkit-transition: 0.15s ease-out;
+    -moz-transition: 0.15s ease-out;
+    -o-transition: 0.15s ease-out;
+    transition: 0.15s ease-out;
+}
+
+.switch-input:checked + .switch-label-on ~ .switch-selection {
+    /* Note: left: 50% doesn't transition in WebKit */
+    left: 167px;
+}
+
+.switch-selection {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 2px;
+    left: 2px;
+    width: 130px;
+    height: 45px;
+    background: #2ca8c6;
+    border-radius: 3px;
+    
+    -webkit-transition: left 0.15s ease-out;
+    -moz-transition: left 0.15s ease-out;
+    -o-transition: left 0.15s ease-out;
+    transition: left 0.15s ease-out;
+}
+
+/* нейтралізує materialize */
+[type="radio"] + label::before, [type="radio"] + label::after {
+	content: none;
+}
+[type="radio"]:not(:checked) + label, [type="radio"]:checked + label {
+	line-height: inherit;
+	font-size: inherit;
+}

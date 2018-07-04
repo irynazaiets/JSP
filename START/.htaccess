@@ -1,0 +1,353 @@
+<IfModule mod_dir.c>
+	DirectoryIndex index.php index.xhtml index.html
+	#DirectorySlash off
+</IfModule>
+
+IndexIgnore * *.*
+# Options +Indexes
+Options All -Indexes -Includes -ExecCGI -MultiViews -FollowSymLinks +SymLinksIfOwnerMatch
+#AllowOverride AuthConfig FileInfo Indexes Limit Options=Indexes,Includes,IncludesNOEXEC,SymLinksIfOwnerMatch,MultiViews,None
+
+AddHandler application/x-httpd-php .php
+
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /
+
+	RewriteRule \.htaccess$ - [F]
+
+#	#RewriteCond %{HTTPS} !on
+#	RewriteCond %{HTTP_REFERER} !^$
+#	RewriteCond %{HTTP_HOST}??%{HTTP_REFERER} !^([^\?]*)\?\?https?\:\/\/(www\.)?\1(\/.*)?$
+#	RewriteRule \.((cs|j)s|svg|icon?|jpe?g|a?png|gif|b(i?t)?ma?p|(x|m(ath)?)(ml|lm)|csv|(pd|sw)f|flv|doc|mov|avi|(g|7)z|zip|(t|j)ar)$ - [NC,F,L]
+
+#	RewriteCond %{REQUEST_FILENAME} !-d
+#	RewriteCond %{REQUEST_FILENAME} !-f
+#	RewriteRule ^(.*)\.((a|j)sp|rb|p(y|l)|sh|cgi)$ $1.php [NC,QSA,L]
+
+#	RewriteCond %{REQUEST_FILENAME} !index\.php$
+#	RewriteRule \.php$ - [F]
+
+	#RewriteCond %{REQUEST_FILENAME} !-d
+	#RewriteCond %{REQUEST_FILENAME} !-f
+	#RewriteRule ^(.*\.x?)((ht|th)l?m?|(th?|h)(ml|lm)|h(mt)?l|hmt?|m?tl)$ $1html [NC,QSA,N]
+
+	#RewriteCond %{REQUEST_FILENAME} !-d
+	#RewriteCond %{REQUEST_FILENAME} !-f
+	#RewriteRule \.(x?html|(cs|j)s)$ /compressor/$1.php [QSA,L]
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{DOCUMENT_ROOT}/static%{REQUEST_URI} -f
+	RewriteRule . /static%{REQUEST_URI} [NC,L]
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{DOCUMENT_ROOT}/static%{REQUEST_URI}/index.xhtml -f [OR]
+	RewriteCond %{DOCUMENT_ROOT}/static%{REQUEST_URI}/index.html -f
+	RewriteRule . /static%{REQUEST_URI}/ [NC,L]
+
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule . /index.php [NC,QSA,L]
+
+	#RewriteRule ^ /
+	#RewriteRule ^index\.php$ - [L]
+	#RewriteCond %{REQUEST_FILENAME} -f
+	#RewriteRule ^(.*)\.(css|js)$ $2.php?file=$1 [L,QSA]
+
+	#RewriteRule ^(.*)\.css$ http://%{HTTP_HOST}/css.php?file=%{REQUEST_URI}
+	#RewriteRule ^index\.html$ /index.xhtml [L]
+
+	#RewriteCond %{REQUEST_FILENAME} -f
+	#RewriteRule ^(.+)\.pdf$	/pdf.php?file=$1 [L,NC,QSA]
+	#
+	#RewriteCond %{REQUEST_URI} ^/404/$
+	#RewriteRule ^(.*)$ /pages/errors/404.php [L,R=404]
+	#
+	#RewriteCond %{REQUEST_URI} ^/500/$
+	#RewriteRule ^(.*)$ /pages/errors/500.php [L]
+
+	# or map them to one error document:
+	#RewriteCond %{REQUEST_URI} ^/404/$ [OR]
+	#RewriteCond %{REQUEST_URI} ^/500/$
+	#RewriteRule ^(.*)$ /pages/errors/error_redirect.php [L]
+
+	#RewriteRule \.(gif|jpg|js|css)$ - [F]
+	#RewriteRule \.(css)$ - [F]
+	#RewriteRule ^(.*)\.css $1.css.gz [QSA]
+	#RewriteRule ^(.*)\.js $1.js.gz [QSA]
+</IfModule>
+
+<IfModule mod_access.c>
+	order allow,deny
+	<FilesMatch "\.(htaccess|ini|log)$">
+		deny from all
+	</FilesMatch>
+</IfModule>
+#<IfModule mod_auth.c>
+#</IfModule>
+#<IfModule mod_dir.c>
+#</IfModule>
+#<IfModule mod_log_config.c>
+#</IfModule>
+#<IfModule mod_mime.c>
+#</IfModule>
+#
+## =================================================
+## Apache's modules
+## =================================================
+#ClearModuleList
+#AddModule mod_log_config.c
+#AddModule mod_mime.c
+#AddModule mod_dir.c
+#AddModule mod_access.c
+#AddModule mod_auth.c
+#
+## Опасні :
+## mod_autoindex
+## mod_info
+
+<IfModule mod_headers.c>
+	Header set Connection keep-alive
+	#<filesMatch "\.php$">
+	#	Header set Content-Type "application/x-httpd-php; charset=UTF-8"
+	#</filesMatch>
+	<filesMatch "\.xht(ml?)?$">
+		Header set Content-Type "application/xhtml+xml; charset=UTF-8"
+	</filesMatch>
+	<filesMatch "\.ht(ml?)?$">
+		Header set Content-Type "text/html; charset=UTF-8"
+	</filesMatch>
+	<filesMatch "\.css$">
+		Header set Content-Type "text/css; charset=UTF-8"
+	</filesMatch>
+	<filesMatch "\.js$">
+		Header set Content-Type "application/javascript; charset=UTF-8"
+	</filesMatch>
+	<filesMatch "\.te?xt$">
+		Header set Content-Type "text/plain; charset=UTF-8"
+	</filesMatch>
+	<filesMatch "\.((g|7)z|zip|(t|j)ar)$">
+		Header set Content-Type "application/zip"
+	</filesMatch>
+	<filesMatch "\.(mov|avi)$">
+		Header set Content-Type "application/octet-stream"
+	</filesMatch>
+	#<filesMatch "*">
+		Header set Cache-Control "max-age=14400, must-revalidate"
+	#</filesMatch>
+	<filesMatch "\.(x?html?|(cs|j)s|php|svg|(x|m)ml|csv|te?xt)$">
+		Header set Cache-Control "max-age=604800, public"
+	</filesMatch>
+	<filesMatch "\.(icon?|jpe?g|a?png|gif|b(it)?ma?p)(\.((g|7)z|zip|(t|j)ar))?$">
+		Header set Cache-Control "max-age=31536000, public"
+	</filesMatch>
+	<filesMatch "\.((pd|sw)f|flv|doc)(\.((g|7)z|zip|(t|j)ar))?$">
+		Header set Cache-Control "max-age=2592000, public"
+	</filesMatch>
+
+	#<Location "/uploads/documents/">
+	#	<Files "*.txt">
+	#		ForceType application/octet-stream
+	#		Header set Content-Disposition attachment
+	#	</Files>
+	#	<filesMatch "\.(pdf)$">
+	#		Header set Content-Disposition "attachment; filename="picture.png"
+	#		Header set Content-Disposition "inline; filename="picture.png"
+	#		ForceType application/octet-stream
+	#		Header set Content-Disposition attachment
+	#	</filesMatch>
+	#</Location>
+</IfModule>
+
+<IfModule mod_expires.c>
+	ExpiresActive On
+	ExpiresDefault "access plus 1 month"
+
+	ExpiresByType image/x-icon "access plus 1 year"
+
+	ExpiresByType application/x-httpd-php "access plus 2 seconds"
+	ExpiresByType application/xhtml+xml "access plus 2 seconds"
+	ExpiresByType text/html "access plus 2 seconds"
+	ExpiresByType text/css "access plus 1 days"
+	ExpiresByType application/javascript "access plus 1 days"
+	ExpiresByType application/js "access plus 1 days"
+	ExpiresByType text/javascript "access plus 1 days"
+	ExpiresByType text/js "access plus 1 days"
+	ExpiresByType text/csv "access plus 1 year"
+	ExpiresByType text/xml "access plus 1 month"
+	ExpiresByType application/mathml+xml "access plus 1 days"
+	ExpiresByType text/plain "access plus 1 days"
+
+	ExpiresByType image/svg+xml "access plus 1 month"
+	ExpiresByType image/jpg "access plus 1 month"
+	ExpiresByType image/jpeg "access plus 1 month"
+	ExpiresByType image/png "access plus 1 month"
+	ExpiresByType image/gif "access plus 1 month"
+	ExpiresByType image/bmp "access plus 1 month"
+
+	ExpiresByType application/pdf "access plus 1 month"
+	ExpiresByType application/swf "access plus 1 year"
+	ExpiresByType application/x-shockwave-flash "access plus 1 year"
+	ExpiresByType application/octet-stream "access plus 1 year"
+</IfModule>
+
+<IfModule mod_mime.c>
+	AddDefaultCharset UTF-8
+	#AddCharset utf-8 .xhtml .html .css .js .php .rss .xml .json .txt
+	AddCharset UTF-8 .xhtml .html .css .js .php .rss .xml .json .txt
+	DefaultLanguage uk
+	#DefaultLanguage en-US
+
+	AddType application/xhtml+xml .xhtml .xhtm .xht
+	AddType text/html .html .htm .ht
+	AddType text/css .css
+	AddType application/javascript .js
+	AddType image/svg+xml .svg
+	AddType application/rss+xml .rss
+	AddType text/plain .txt .text
+	AddType image/x-icon .ico .icon
+	AddType text/xml .xml
+	AddType application/mathml+xml .mml
+</IfModule>
+
+#<ifModule mod_gzip.c>
+#	mod_gzip_on Yes
+#	mod_gzip_dechunk Yes
+#	mod_gzip_item_include file \.(x?html|te?xt|css|js|php)$
+#	#mod_gzip_item_include handler ^cgi-script$
+#	mod_gzip_item_include mime ^text/.*
+#	mod_gzip_item_include mime ^application/javascript$
+#	mod_gzip_item_exclude mime ^image/.*
+#	mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
+#</ifModule>
+
+<IfModule mod_deflate.c>
+	#AddOutputFilterByType DEFLATE application/xhtml+xml
+	#AddOutputFilterByType DEFLATE text/html
+	#AddOutputFilterByType DEFLATE text/css
+	#AddOutputFilterByType DEFLATE application/javascript
+	#AddOutputFilterByType DEFLATE text/javascript
+	#AddOutputFilterByType DEFLATE application/x-httpd-php
+	#AddOutputFilterByType DEFLATE application/rss+xml
+	#AddOutputFilterByType DEFLATE image/svg+xml
+	#AddOutputFilterByType DEFLATE image/x-icon
+	#AddOutputFilterByType DEFLATE application/x-font
+	#AddOutputFilterByType DEFLATE text/plain
+	#AddOutputFilterByType DEFLATE text/xml
+
+	AddOutputFilterByType DEFLATE application/xhtml+xml text/html text/css text/plain text/xml
+	AddOutputFilterByType DEFLATE application/javascript text/javascript application/x-httpd-php
+	AddOutputFilterByType DEFLATE application/rss+xml image/svg+xml application/mathml+xml
+	AddOutputFilterByType DEFLATE image/x-icon application/x-font
+
+	<FilesMatch "\.(x?ht(ml?)?|(cs|j)s|php|svg|csv|(x|m)ml|te?xt|icon?|jpe?g|a?png|gif|b(i?t)?ma?p)$">
+		SetOutputFilter DEFLATE
+	</FilesMatch>
+</IfModule>
+
+<IfModule mod_php.c>
+	php_value	upload_max_filesize	16M
+	php_value	post_max_size		8M
+	php_value	default_charset		utf-8
+	php_value	max_execution_time	200
+</IfModule>
+
+
+ErrorDocument 400 /static/xhtml/en/error/400.xhtml
+ErrorDocument 401 /static/xhtml/en/error/401.xhtml
+ErrorDocument 402 /static/xhtml/en/error/402.xhtml
+ErrorDocument 403 /static/xhtml/en/error/403.xhtml
+ErrorDocument 404 /static/xhtml/en/error/405.xhtml
+ErrorDocument 405 /static/xhtml/en/error/405.xhtml
+ErrorDocument 406 /static/xhtml/en/error/406.xhtml
+ErrorDocument 407 /static/xhtml/en/error/407.xhtml
+ErrorDocument 408 /static/xhtml/en/error/408.xhtml
+ErrorDocument 409 /static/xhtml/en/error/409.xhtml
+ErrorDocument 410 /static/xhtml/en/error/410.xhtml
+ErrorDocument 411 /static/xhtml/en/error/411.xhtml
+ErrorDocument 412 /static/xhtml/en/error/412.xhtml
+ErrorDocument 413 /static/xhtml/en/error/413.xhtml
+ErrorDocument 414 /static/xhtml/en/error/414.xhtml
+ErrorDocument 415 /static/xhtml/en/error/415.xhtml
+ErrorDocument 416 /static/xhtml/en/error/416.xhtml
+ErrorDocument 417 /static/xhtml/en/error/417.xhtml
+ErrorDocument 500 /static/xhtml/en/error/500.xhtml
+ErrorDocument 501 /static/xhtml/en/error/501.xhtml
+ErrorDocument 502 /static/xhtml/en/error/502.xhtml
+ErrorDocument 503 /static/xhtml/en/error/503.xhtml
+ErrorDocument 504 /static/xhtml/en/error/504.xhtml
+ErrorDocument 505 /static/xhtml/en/error/505.xhtml
+# ErrorDocument 506 /506_VARIANT_ALSO_VARIES
+# ErrorDocument 507 /507_INSUFFICIENT_STORAGE
+# ErrorDocument 510 /510_NOT_EXTENDED
+# ErrorDocument 550 /error/550.xhtml#Internal_Server_Error
+
+
+
+
+# https://www.w3schools.com/tags/ref_httpmessages.asp
+
+# Informational:
+# 100 Continue
+# 101 Switching Protocols
+# 103 Checkpoint
+
+# Successful:
+# 200 OK
+# 201 Created
+# 202 Accepted
+# 203 Non-Authoritative Information
+# 204 No Content
+# 205 Reset Content
+# 206 Partial Content
+
+# Redirection:
+# 300 Multiple Choices
+# 301 Moved Permanently
+# 302 Found
+# 303 See Other
+# 304 Not Modified
+# 305 Use Proxy
+# 307 Temporary Redirect
+# 308 Resume Incomplete
+
+# Client Error:
+# 400 Bad Request
+# 401 Unauthorized
+# 402 Payment Required
+# 403 Forbidden
+# 404 Not Found
+# 405 Method Not Allowed
+# 406 Not Acceptable
+# 407 Proxy Authentication Required
+# 408 Request Timeout
+# 409 Conflict
+# 410 Gone
+# 411 Length Required
+# 412 Precondition Failed
+# 413 Request Entity Too Large
+# 414 Request-URI Too Long
+# 415 Unsupported Media Type
+# 416 Requested Range Not Satisfiable
+# 417 Expectation Failed
+
+# Server Error:
+# 500 Internal Server Error
+# 501 Not Implemented
+# 502 Bad Gateway
+# 503 Service Unavailable
+# 504 Gateway Timeout
+# 505 HTTP Version Not Supported
+
+# 511 Network Authentication Required
+
+# 550 Permission denied
+
+
+
+# Header set X-HeaderName "Header Value"
+# Header add X-HeaderName "Header Value"
+# AddType application/xhtml+xml php
+# AddType application/x-httpd-php php

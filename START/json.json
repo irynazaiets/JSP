@@ -1,0 +1,204 @@
+
+[
+	/*ROCK*/
+
+
+		{
+			"name":"Imagine Dragons- Not Today",
+			"url": "https://youtu.be/trig1MiEo1s",
+			"kind": "Rock",
+			"categorie": "Relax"
+		},
+		{
+			"name":"Epolets- Одна",
+			"url": "https://youtu.be/gDhzHcIMinE",
+			"kind": "Rock",
+			"categorie": "Relax"
+		},
+		{
+			"name":"Breaking Benjamin- Ashes of Eden",
+			"url": "https://youtu.be/d1yTyAh8IA8",
+			"kind": "Rock",
+			"categorie": "Relax"
+		},
+	
+		{
+			"name":"Metallica- Enter Sandman",
+			"url": "https://youtu.be/CD-E-LDc384",
+			"kind": "Rock",
+			"categorie": "Studying"
+		},
+		{
+			"name":"Black Veil Brides- Goodbay Agony",
+			"url": "https://youtu.be/f-cxPIOAfSk",
+			"kind": "Rock",
+			"categorie": "Studying"
+		},
+		{
+			"name":"Dead by April- I can't breathe",
+			"url": "https://youtu.be/riyqQmBHDgE",
+			"kind": "Rock",
+			"categorie": "Studying"
+		},
+		
+		{
+			"name":"Imagine Dragons- Demons",
+			"url": "https://youtu.be/ZjIARnZ8YL4",
+			"kind": "Rock",
+			"categorie": "Traveling"
+		},
+		{
+			"name":"БИ-2- Три сантиметра над землёй",
+			"url": "https://youtu.be/G80eW0TbOGM",
+			"kind": "Rock",
+			"categorie": "Traveling"
+		},
+		{
+			"name":"Our Last Night- Caught In The Storm",
+			"url": "https://youtu.be/cjgZ0dBJwTY",
+			"kind": "Rock",
+			"categorie": "Traveling"
+		},
+		{
+			"name":"Breaking Benjamin- Angels Fall",
+			"url": "https://youtu.be/9zFfRSeA1ls",
+			"kind": "Rock",
+			"categorie": "Traveling"
+		},
+
+		{
+			"name":"Lumen- На части",
+			"url": "https://youtu.be/eKvK6Z3NUj0",
+			"kind": "Rock",
+			"categorie": "Sleeping"
+		},
+		{
+			"name":"Bahroma- На глубине",
+			"url": "https://youtu.be/c5deJSHamso",
+			"kind": "Rock",
+			"categorie": "Sleeping"
+		},
+		{
+			"name":"Metallica- Nothing Else Matters",
+			"url": "https://youtu.be/tAGnKpE4NCI",
+			"kind": "Rock",
+			"categorie": "Sleeping"
+		},
+		
+		{
+			"name":"Imagine Dragons- Believer",
+			"url": "https://youtu.be/PM18tMOW8p4",
+			"kind": "Rock",
+			"categorie": "Sport"
+		},
+		{
+			"name":"Brutto- Середні віки",
+			"url": "https://youtu.be/B1exW5oI-TI",
+			"kind": "Rock",
+			"categorie": "Sport"
+		},
+		{
+			"name":"Dead by April- Crying Over You",
+			"url": "https://youtu.be/eOu3RGEl7_Y",
+			"kind": "Rock",
+			"categorie": "Sport"
+		},
+		
+		{
+			"name":"Imagine Dragons- Walking The Wire",
+			"url": "https://youtu.be/1nv9br7P7g0",
+			"kind": "Rock",
+			"categorie": "Party"
+		},
+		{
+			"name":"Антитіла- Танцюй",
+			"url": "https://youtu.be/ThSvGCaij5Q",
+			"kind": "Rock",
+			"categorie": "Party"
+		},
+		{
+			"name":"O.TORVALD- #Нашілюдивсюди",
+			"url": "https://youtu.be/82zroM-SPpg",
+			"kind": "Rock",
+			"categorie": "Party"
+		},
+
+/*Classical music*/
+
+		{
+			"name":"Federico Albanese- Disclosed",
+			"url": "https://youtu.be/QaCBa5kLpb0",
+			"kind": "Classical music",
+			"categorie": "Relax"
+		},
+		{
+			"name":"Sophie Hutchings- Yonder Promo Rell",
+			"url": "https://youtu.be/BBHV8kgJh7I",
+			"kind": "Classical music",
+			"categorie": "Relax"
+		},
+		{
+			"name":"Bruno Sanfilippo- Piano Textures 4 III",
+			"url": "https://youtu.be/d5m9L2iosfk",
+			"kind": "Classical music",
+			"categorie": "Relax"
+		},
+		
+		{
+			"name":"Bruno Sanfilippo- Piano Impromptu",
+			"url": "https://youtu.be/Inju3nwD4-k",
+			"kind": "Classical music",
+			"categorie": "Studying"
+		},
+		{
+			"name":"Sophie Hutchings- Shadowed",
+			"url": "https://youtu.be/Y3TL4_7L0bA",
+			"kind": "Classical music",
+			"categorie": "Studying"
+		},
+		{
+			"name":"Federico Albanese- Carousel №3",
+			"url": "https://youtu.be/9O5QjfugXNY",
+			"kind": "Classical music",
+			"categorie": "Studying"
+		},
+		
+		{
+			"name":"Olafur Arnalds- Only the Winds",
+			"url": "https://youtu.be/9eWewdTkghM",
+			"kind": "Classical music",
+			"categorie": "Traveling"
+		},
+		{
+			"name":"Sophie Hutchings- The Road",
+			"url": "https://youtu.be/Ls5hhFvVtCQ",
+			"kind": "Classical music",
+			"categorie": "Traveling"
+		},
+		{
+			"name":"Egor Grushin- Carpathians",
+			"url": "https://youtu.be/qcpeH_2xG3w",
+			"kind": "Classical music",
+			"categorie": "Traveling"
+		},
+	
+		{ 
+			"name":"Federico Albanese- Shadow Land Part II",
+			"url": "https://youtu.be/fEE_jZh1mDc",
+			"kind": "Classical music",
+			"categorie": "Sleeping"
+		},
+		{
+			"name":"Ludovico Einaudi- Night",
+			"url": "https://youtu.be/k9NM-yK1C2I",
+			"kind": "Classical music",
+			"categorie": "Sleeping"
+		},
+		{
+			"name":"Bruno Sanfilippo- Impromptu",
+			"url": "https://youtu.be/KeWwX9ZMRNU",
+			"kind": "Classical music",
+			"categorie": "Sleeping"
+		}
+		
+]

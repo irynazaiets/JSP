@@ -1,0 +1,247 @@
+body{
+	
+	display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+	width: 100%;
+	height: 100%;
+	color: #333;
+	background: #dcebf2;
+	font-size: 1em;
+	font-family: "Segoe UI", sans-serif;
+	line-height: 135%;
+}
+
+
+
+.button1 {
+	display:inline-block;
+	margin: 40px;
+	width: 70px;
+	height: 70px;
+	background: url("../../../../Zaiets/fon.jpg");
+	cursor: pointer;
+	border-radius:50%;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	box-shadow: 0 3px 20px rgba(0,0,0, .25), inset 0 2px 0 rgba(255, 255, 255, .6),  0  2px 0
+	 rgba(0, 0, 0, .1), inset 0 0 20px rgba(0, 0, 0, .1);
+	-moz-box-shadow: 0 3px 20px rgba(0,0,0, .25), inset 0 2px 0 rgba(255, 255, 255, .6),  0  2px 0 
+	rgba(0, 0, 0, .1), inset 0 0 20px rgba(0, 0, 0, .1); 
+	-webkit-box-shadow: 0 3px 20px rgba(0,0,0, .25), inset 0 2px 0 rgba(255, 255, 255, .6),  0  2px 0 
+	rgba(0, 0, 0, .1), inset 0 0 20px rgba(0, 0, 0, .1); 
+
+}
+.button1:hover {
+	box-shadow: inset 0 0 20px rgba(0,0,0,.2), 0 2px 0 rgba(255,255,255, .4), inset 0 2px 0 rgba(0,0,0, .1); 
+}
+.button1::after {
+	content:'';
+	width: 70px;
+	height: 70px;
+	display: block;
+	opacity:.7;
+}
+.btn-input::after {
+	background: url("../../../../Zaiets/login.png") center no-repeat;
+}
+
+.btn-output::after {
+	background: url("../../../../Zaiets/logout.png") center no-repeat;
+}
+h3{
+	font-size: 15pt;
+	display: inline-block;
+	color: green;
+	margin: auto;
+	padding: 0 0;
+}
+
+p{
+	padding:0;
+}
+
+h2{
+	font-size: 15pt;
+	margin: auto;
+	padding: 0 0;
+	font-weight: 400;
+}
+
+.sngl{
+	font-weight:bold;
+	display:none;
+}
+.buttons123{
+	display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+	width: 40%;
+	height: 100%;
+	line-height: 135%;
+}
+
+.icon:hover{
+	transform:rotate(360deg);
+	transition-duration: 2s;
+	position:static;
+}
+.icon{
+
+}
+
+button{
+	background-color: rgba(255,255,255,0.5);
+	border:none;
+	border-color:white;
+	outline: none;
+}
+
+#singer button {
+	color:red;
+}
+
+button h2{
+	display:inline-block;
+}
+
+div{
+	display: block;
+}
+div[id] {
+	display: none;
+}
+
+button ~ p{
+	display:none;	
+	color: #73a5c6;
+
+}
+
+#classic1 {
+  background: url("img/class/class1.jpg") center 0 repeat fixed; min-height: 500px;
+  height: 500px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+}
+#classic1 article {
+  height: 550px;
+  text-align: center;
+  top: 300px;
+  width: 100%;
+}
+#classic2 {
+  background: url("img/class/class2.jpg") center 0 repeat fixed; min-height: 500px;
+  height: 500px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+}
+#classic2 article {
+  height: 550px;
+  text-align: center;
+  width: 100%;
+}
+#classic1 article a{
+	font-family: 'Cabin Sketch', cursive;
+	font-size: 48px;
+}
+header, footer{
+	width: 100%;
+	background-color: #fff;
+}
+
+header {
+	font-family: 'Pacifico', cursive;
+	border-bottom: 2px solid silver;
+	font-size: 6em;
+	line-height: 100%;
+	padding: 10px 10px !important;
+	display: flex;
+	width: auto;
+	background-color: #FFF0F5;
+}
+header * {
+	display: inline-block;
+	vertical-align: middle;
+	margin: auto auto;
+}
+header>* {
+	flex: 1;
+}
+header img{
+	display: inline-block;
+	height: 140px;
+	max-height: 140px;
+	border-radius: 50%;
+}
+header>span {
+	text-align: center;
+}
+
+footer{
+	margin-top: 0; 
+}
+a{
+	color:  #ffffff;
+}
+
+.buttons-list {
+	display: flex;
+	width: 100%;
+	vertical-align: middle;
+	
+}
+.buttons-list>* {
+	width: auto;
+	height: auto;
+	flex: 0;
+	display: inline-block;
+	margin: 1em auto;
+	padding: 1em 1em;
+	background-color:#73a5c6;
+}
+#singer .buttons-list {
+	display: block;
+	text-align: center;
+}
+#singer .buttons-list>* {
+	width: auto;
+	margin: 0.5em 1em;
+	padding: 0.5em 1em;
+}
+#singer .buttons-list>* {
+	background-color: transparent;
+}
+#singer .buttons-list>button:active,
+#singer .buttons-list>button:focus {
+	background-color: #73a5c6;
+	color: black;
+}
+#singer .buttons-list>button:focus h2 {
+	text-decoration: none;
+}
+#singer .buttons-list>button>* {
+	text-decoration: underline;
+}
+.buttons-list:before,
+.buttons-list:after {
+	content: "";
+	display: inline-block;
+	flex: 0;
+	margin: 0 auto;
+}
+.buttons-list img {
+	width: 128px;
+	height: auto;
+}
+.half-border-radius * {
+	border-radius: 50%;
+}
+body>div {
+	padding: 1em 2em;
+}
+

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Pop</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+	<!-- <link href="img/logo.png" rel="" type="image/x-icon"/> -->
+
+	<link rel="shortcut icon" href="../../../../Zaiets/img/favicon.ico" type="image/x-icon"/>
+	<link rel="stylesheet" href="../../../../Zaiets/materialize/css/materialize.css" type="text/css"/>
+	<link rel="stylesheet" href="../../../../Zaiets/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="pop1.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700" rel="stylesheet">
+
+	<!-- Scripts
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	-->
+	<script src="../../../../Zaiets/materialize/js/materialize.js"></script>
+	<script src="../../../../Zaiets/materialize/js/init.js"></script>         
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="../../../../Zaiets/js/js_f.js"></script>
+	<script src="js.js"></script>
+</head>
+<body onload="loadFooter()">
+	<header class="page-footer">
+		<a href="/">
+			<img src="../../../../Zaiets/img/logo.png" alt="logo" src="index.html"/>
+		</a>
+		<span>MusicStore</span>
+		<div class="display-right">
+			<a href="../../../../zviz/index/index.html" class="button1 btn-input"></a>
+			<a href="../../../../Zaiets/index.html" class="button1 btn-output"></a>
+		</div>
+	</header>
+
+
+	<section id="pop1" data-type="background" data-speed="10" class="home pages">
+		<article><p><a href="#top">POP</a></p></article>
+	</section>
+
+	<p><a name="top"></a></p>
+	<div class="buttons-list half-border-radius">
+		<button onclick="addEffectCurrentSinger('qum')"><img src="img/qum.png" alt="Question" class="icon" /></button>
+		<button onclick="addEffectCurrentSinger('history')"><img src="img/history.png" alt="History" class="icon" /></button>
+		<button onclick="addEffectCurrentSinger('singer')"><img src="img/rock/rock.png" alt="Rock" class="icon" /></button>
+	</div>
+	<div id="qum">
+		<h3>Що таке Поп-музика</h3>
+		<div>
+			<p>
+				<strong>Поп-музика</strong> (або зневажливо попса) — поняття, що охоплює різноманітні стилі, жанри та напрями масового музикування. 
+				Феномен поп-музики сформувався передусім в англомовних країнах Заходу як явище молодіжної культури. Сучасні форми поп-музики поширені в 
+				усьому світі, проте складність її оцінювання як культурного явища зумовлена неоднозначністю естетичної оцінки та соціальної ролі.
+			</p>
+			<p>
+				Інструментальні ресурси поп-музики обмежені, як правило, електрогітарами та ударними інструментами з епізодичним застосуванням саксофонів 
+				та інших, зокрема екзотичних інструментів. Для сучасної поп-музики велике значення відіграє електронна апаратура. Мелодії, як правило, 
+				нескладні, ритмічні, легко запам'ятовуються.
+			</p>
+			<p>
+				Вокальний стиль поп-музики характеризується мелодійною та емоційною манерою виконання, застосуванням «відкритого» звука, наближенням до 
+				мовлення співом, демонстративно «непоставленими» голосами, неприродною теситурою, з широким використанням екстатичних вигуків, стогонів, 
+				завивань та інших ефектів.
+			</p>
+		</div>
+	</div>
+
+	<div id="history">
+		<h3>Історія</h3>
+		<div>
+			<p>
+				Сучасна поп-музика формувалася паралельно з іншими жанрами, такими як рок-музика, і не завжди була віддільна від них. 
+				У 1970-х і 1980-х її найтиповішою формою був т. зв. «Традиційна музика» (traditional pop), який в СРСР було прийнято називати «естрадна
+				музика», «естрада». Традиційний поп виконується співаком-солістом під фоновий акомпанемент. У США естрада була тісно пов'язана з 
+				джазом (Френк Сінатра), у Франції — з шансоном. Значну частину поп-музичної сцени США складають виконавці-афроамериканці у жанрі соул.
+			</p>
+			<p>
+				Справжнім проривом в поп-музиці стала поява в 1970-ті стилю «диско» (євродиско) і таких груп, як ABBA, Boney M, Dschinghis Khan, Bee Gees. 
+				Поп-музика відтепер витісняє рок-н-рол як основна танцювальна музика на дискотеках, і з цього часу танцювальна музика (dance music) є 
+				одним з основних напрямків у поп-музиці.
+			</p>
+			<p>
+				Завдяки появі музичного телебачення (зокрема, телеканалу MTV), в 1980-ті формується культура відеокліпів. У цей час у США з'являються такі 
+				зірки, як Майкл Джексон, Мадонна, Прінс, Вітні Х'юстон. На поп-музику в цей період впливають хіп-хоп, соул і ритм-енд-блюз. У 1990-ті і 
+				2000-ні до цього додається танцювальна електронна музика. 
+			</p>
+		</div>
+	</div>
+
+	<div id="singer">
+		<h3>Відомі поп-виконавці</h3>
+		<div class="buttons-list">
+			<button  onclick="addEffectCurrentSinger('1singer')"><h2>Ed Sheeran</h2></button> 
+			<button  onclick="addEffectCurrentSinger('2singer')"><h2>Maroon 5</h2></button> 
+			<button  onclick="addEffectCurrentSinger('3singer')"><h2>Jonas Blue</h2></button> 
+			<button  onclick="addEffectCurrentSinger('4singer')"><h2>Selena Gomez</h2></button> 
+			<button  onclick="addEffectCurrentSinger('5singer')"><h2>OneRepublic</h2></button>
+			<button  onclick="addEffectCurrentSinger('6singer')"><h2>Odesza</h2></button> 
+		</div>
+
+		<div id="1singer">
+			<p>
+				<strong>Ed Sheeran</strong>— англійський автор, виконавець і музикант. Його пісня Thinking Out Loud була визнана «Піснею року» 
+				на 58-ій церемонії Ґреммі.
+			</p>
+			<p>
+				Ед Ширан народився у Галіфаксі, згодом переїхав у Фрамлінгем. У 2008 році переїхав до Лондону, щоб почати музичну кар'єру. У 2011 
+				випустив міні-альбом No. 5 Collaborations Project. Ед Ширан підписав контракт з Asylum Records. Його дебютний альбом «+» досяг першої 
+				позиції у Великій Британії, а перший сингл The A Team — 3-ю в Англії та 15-у в США.
+			</p>
+			<p>
+				У 2013 Ед Ширан записав сингл I See Fire як саундтрек до фільму Хоббіт: Пустка Смога. Пісня стала досить успішною, потрапивши у 
+				більшість чартів світу. 2014 року він випустив сингл зі свого альбому «×» — Sing. Композиція дісталася 1-ї сходинки в Англії, 
+				Новій Зеландії, Ірландії та Австралії. Також це найуспішніша пісня співака на Billboard Hot 100, яка трималася в ньому декілька тижнів 
+				на 13-му місці. Альбом дебютував на першому місці у США та в Англії.
+			</p>
+			<p>
+				Ед Ширан отримав почесний докторський ступінь від Саффолкського університету за свій «видатний внесок у поп-музику».
+			</p>
+			<div class="sngl">Сингли</div>
+			<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/395556086&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+		</div>
+
+		<div id="2singer">
+			<p>
+				<strong>Maroon 5</strong> — американський поп-рок-гурт, створений в Лос-Анжелесі, Каліфорнія. Гурт утворився в 1995 році під назвою 
+				Kara's Flowers. До його складу входили вокаліст і ритм-гітарист Адам Левін, клавішник Джессі Кармайкл, бас-гітарист Міккі Медден та 
+				ударник Райн Дусік. 
+			</p>
+			<p>
+				В 1997 році вийшов перший альбом гурту "The Fourth World". А в 2001 році з приходом гітариста Джеймса Валентайна, 
+				гурт перейменували на Maroon 5. Наступний рік у житті музикантів був ознаменований виходом дебютного альбому "Songs about Jane".Серед 
+				найвідоміших хітів альбому: "Harder to Breathe", "This Love", "She Will Be Loved" і "Sunday Morning". Цей альбом користувався великим 
+				успіхом і став золотим, платиновим і мультиплатиновим у багатьох країнах.
+			</p>
+			<p>
+				Вже маючи статус зіркового гурту, Maroon 5 випускають свій другий студійний альбом "It Won't Be Soon Before Long" у травні 2007 року, 
+				через п’ять років після виходу Songs about Jane. Другий альбом гурту дебютував на першому місці в списку Billboard 200. Альбом отримав 
+				платинову сертифікацію, і тільки в США було продано близько 1,6 мільйона його копій. Влітку 2010 гурт випустив третій студійний альбом 
+				"Hands All Over" із синглом "Misery".
+			</p>
+			</p>
+			<div class="sngl">Сингли</div>
+			<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/395557364&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+		</div>
+
+		<div id="3singer">
+			<p>
+				Гай Джеймс Робин , більш відомий під сценічним псевдонімом <strong>Jonas Blue</strong> — британський музичний продюсер, автор 
+				пісень і діджей.
+			</p>
+			<p>
+				Отримав широку популярність в 2016 році після виходу його ремікса на композицію Трейсі Чепмен 1988 року «Fast Car». Сингл був створений в 
+				стилі tropical house і записаний за участі співачки Dakota. Пісня зайняла друге місце в британському xіт-параді UK Singles Chart, а також 
+				стала платиновою в Італії, Новій Зеландії и Австралії. 
+			</p>
+			<p>
+				В 2016 році музикант випустив нові сингли «Perfect Strangers» за участі британського 
+				співака JP Cooper і «By Your Side» за участі співачки RAYE. На початку 2017 року діджей представив новий сингл «Mama», який створений 
+				спільно з австралійським виконавцем Вільямом Сінджем.
+
+			</p>
+			<div class="sngl">Сингли</div>
+			<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/395558522&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+		</div>
+
+		<div id="4singer">
+			<p>
+				<strong>Selena Gomez</strong> — американська акторка, співачка, посол доброї волі ЮНІСЕФ.
+			</p>
+			<p>
+				Селена Гомес народилась 22 липня 1992 року в Гранд-Прейрі, Техас, США в сім'ї Менді Корнетт і Рікардо Гомеса. Коли їй було 5 років, 
+				батьки розлучилися. Мати, театральна акторка, одна виховувала доньку та надихнула її своїм прикладом на вибір артистичної діяльності.
+				У 2006 році її мати Менді вийшла заміж за Брайана Тіфі[3]. У травні 2010 року Селена отримала диплом про закінчену середню освіту вдома.
+			</p>
+			<p>
+				Разом зі своїм гуртом «Selena Gomez &amp the Scene» випустила свій дебютний альбом «Kiss &amp Tell», який вийшов у США у вересні 2009 року.
+				Одна з її пісень «One and the same» потрапила до альбому «Pop it, rock it», куди увійшли пісні Майлі Сайрус, Емілі Осмент, 
+				саундтреки і інші пісні.
+			</p>
+			<div class="sngl">Сингли</div>
+			<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/395560178&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+		</div>
+
+		<div id="5singer">
+			<p>
+				<strong>OneRepublic</strong>— американський поп-рок гурт, заснований 2002 року у Колорадо-Спрінгзі. Популярність гурту приніс сингл 
+				«Apologize», який став у США тричі платиновим і досяг третього місця в хіт-параді Великої Британії 2007 року. Ремікс на пісню був 
+				включений до альбому Тімбаленда «Shock Value» і в дебютний альбом OneRepublic «Dreaming Out Loud».
+			</p>
+
+			<p>
+				Гурт було засновано вокалістом Раяном Теддером і його шкільним другом Заком Філкінсом, що грав на гітарі. Спочатку група 
+				називалася Republic, але згодом прийняла теперішній вигляд. Основний склад OneRepublic утворився в 2003 році в Лос-Анджелесі.
+			</p> 
+			<p>
+				Для початку хлопці почали викладати свої пісні на власній сторінці на MySpace і поступово стали одними з найпопулярніших музикантів цього 
+				ресурсу - за один рік їх пісні прослухали більше 24 мільйонів осіб. Робота над сольною платівкою розпочалася ще в 2005 році під крилом 
+				лейбла Columbia Records, проте співпраця не склалася, і незабаром OneRepublic переметнулися на власний лейбл Тімбеленда Mosley Music Group. 
+			</p>
+			<p>
+				Завдяки успіху синглу "Apologize" група змогла випустити платівку "Dreaming Out Loud", записану ще у 2006 році для Columbia.
+			</p>
+			<div class="sngl">Сингли</div>
+			<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/395561522&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+		</div>
+
+		<div id="6singer">
+			<p>
+				<strong>Odesza</strong>- американський дует з Сіетла, який складається з Гаррісона Міллса та Клейтона Найта. Гурт був
+				створений у 2012 році, незадовго до того, як хлопці закінчили Університет Західного Вашингтону.
+			</p>
+			<p>
+				Свій дебютний альбом Summer's Gone дует випустив у 2012 році, голосно заявивши про себе в андеграундному музичному середовищі. Після цього 
+				був перший EP у 2013 році під назвою My Friends Never Die та другий студійний альбом In Return у 2014 році. 18 вересня 2015 року гурт 
+				випустив розширену версію останнього альбому під назвою In Return (Deluxe Edition) на лейблі Counter Records. До альбому увійшли також 
+				три треки з живих виступів, а також новий трек «Light (featuring Little Dragon)».
+			</p>
+			<p>
+				Назва гурту - це угорське написання українського міста Одеси. Але хлопці назвали гурт на честь затонулого судна Гаррісонового дядька. 
+				В результаті катастрофи вижили тільки дядько та ще один член екіпажу. Так як назва Odessa вже використовувалась шотландським гуртом, 
+				хлопці обрали собі угорський варіант написання.
+			</p>
+			<div class="sngl">Сингли</div>
+			<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/395562449&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+		</div>
+	</div>
+
+<section id="pop2" data-type="background" data-speed="10" class="home pages">
+		<article></article>
+	</section>
+</body>
+</html>

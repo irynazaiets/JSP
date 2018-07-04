@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Jazz</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+	<!-- <link href="img/logo.png" rel="" type="image/x-icon"/> -->
+
+	<link rel="shortcut icon" href="../../../../Zaiets/img/favicon.ico" type="image/x-icon"/>
+	<link rel="stylesheet" href="../../../../Zaiets/materialize/css/materialize.css" type="text/css"/>
+	<link rel="stylesheet" href="../../../../Zaiets/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="jazzstyle.css" />
+	<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700" rel="stylesheet">
+	<!-- Scripts
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	-->
+	<script src="../../../../Zaiets/materialize/js/materialize.js"></script>
+	<script src="../../../../Zaiets/materialize/js/init.js"></script>         
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="../../../../Zaiets/js/js_f.js"></script>
+	<script src="js.js"></script>
+</head>
+<body onload="loadFooter()">
+	<header class="page-footer">
+		<a href="/">
+			<img src="../../../../Zaiets/img/logo.png" alt="logo" src="index.html"/>
+		</a>
+		<span>MusicStore</span>
+		<div class="display-right">
+			<a href="../../../../zviz/index/index.html" class="button1 btn-input"></a>
+			<a href="../../../../Zaiets/index.html" class="button1 btn-output"></a>
+		</div>
+	</header>
+
+
+	<section id="rock1" data-type="background" data-speed="10" class="home pages">
+		<article><p><a href="#top">JAZZ</a></p></article>
+	</section>
+<p><a name="top"></a></p>
+	<div class="buttons-list half-border-radius">
+		<button onclick="addEffectCurrentSinger('qum')"><img src="img/qum.png" alt="Question" class="icon" /></button>
+		<button onclick="addEffectCurrentSinger('history')"><img src="img/history.png" alt="History" class="icon" /></button>
+		<button onclick="addEffectCurrentSinger('singer')"><img src="img/jazz/jazz.png" alt="Rock" class="icon" /></button>
+	</div>
+	
+	<div id="qum">
+		<h3>Що таке Джаз</h3>
+		<div>
+		<p>
+		<strong>Джаз</strong>— вид музичного мистецтва, що виник на межі XIX—XX століття в США серед пригнобленого, безправного 
+		афроамериканського населення, серед нащадків чорних рабів, насильно вивезених зі своєї батьківщини та отримав згодом певне поширення. 
+		Характерними рисами музичної мови джазу спочатку стали імпровізація, поліритмія, заснована на синкопованих ритмах, і унікальний комплекс прийомів виконання ритмічної фактури — свінг. Як і реггі з репом традиційно вважається «музикою чорних».
+		</p>
+		<p>
+		Слово «jazz» у креолів означало полювання, а також хвилювання, збудження. В 1860-і в північноамериканській літературній мові з'являється слово «jasm», що означає піднесення, натхнення. Невдовзі йому на зміну приходить слово «jass», а також аналогічне дієслово, що означало, «ловити», «збуджуватись» тощо. Все частіше починають використовуватись звороти «jazz around» (блукати, мандрувати) і «jazz up» (впадати у веселий стан). 
+		</p>
+		<p>
+		Як музичний термін, слово «jazz» вперше з'явилося 1915 року у зв'язку з білим оркестром, що грав у новоорлеанському стилі, пізніше — в назві новоорлеанського оркестру Тома Брауна — «Том Браун Диксиленд Джаз Бенд», після чого термін «джаз» швидко поширюється в Північній Америці, а згодом і по всьому світу.
+		</p>
+		</div>
+	</div>
+
+	<div id="history">
+		<h3>Історія</h3>
+		<div>
+		<p>Джаз виник як поєднання декількох музичних культур і національних традицій. Спочатку він прибув з африканських земель. 
+		Для будь-якої африканської музики характерний дуже складний ритм, музика завжди супроводжується танцями, які представляють собою швидке притупування і плескання. На цій основі в кінці XIX століття склався ще один музичний жанр регтайм. Згодом ритми регтайму в поєднанні з елементами блюзу дали початок новому музичному напрямку — джазу.
+		</p>
+		<p>
+		Витоки джазу пов'язані з блюзом. Він виник в кінці XIX століття як злиття африканських ритмів і європейської гармонії, але витоки його слід шукати з моменту завезення рабів з Африки на територію Нового Світу. Привезені раби не були вихідцями з одного роду і зазвичай навіть не розуміли один одного. Необхідність консолідації привела до об'єднання безлічі культур і, як наслідок — до створення єдиної культури (в тому числі і музичної) афроамериканців. 
+		</p>
+		<p>
+		Процеси змішування африканської музичної культури, і європейської (яка теж зазнала серйозних змін в Новому Світі) відбувалися починаючи з XVIII століття і в XIX столітті привели до виникнення «протоджаз», а потім і джазу в загальноприйнятому розумінні.
+		</p>
+		</div>
+	</div>
+
+	<div id="singer">
+		<h3>Відомі джаз-виконавці</h3>
+		
+		<div class="buttons-list">
+			<button onclick="addEffectCurrentSinger('1singer');"><h2>Frank Sinatra</h2></button> 
+			<button onclick="addEffectCurrentSinger('2singer');"><h2>Peggy Lee</h2></button> 
+			<button onclick="addEffectCurrentSinger('3singer');"><h2>Nat King Cole</h2></button> 
+			<button onclick="addEffectCurrentSinger('4singer');"><h2>Bob James</h2></button> 
+			<button onclick="addEffectCurrentSinger('5singer');"><h2>Louis Prima</h2></button>
+			<button onclick="addEffectCurrentSinger('6singer');"><h2>Marilyn Monroe</h2></button> 
+		</div>
+
+		<div id="1singer">
+			<p>
+				<strong>Frank Sinatra</strong>(Фре́нсіс А́льберт Сіна́тра)— американський актор і співак. Славився романтичним стилем виконання пісень, «наспівним» (crooning) голосом, а також ефектною зовнішністю.
+			</p>
+			<p>
+				Змолоду мав прізвиська Френкі (Frankie) і Голос («the Voice»), пізніше — Містер "Блакитні Очі" (Ol' Blue Eyes), та Старійшина («Chairman of the Board»).
+			</p>
+			<p>
+				Розпочавши кар'єру в епоху свінґу, він досяг успіху в середині 1940-х рр., ставши кумиром тінейджерів. Наприкінці 1940-х рр. зазнав глибокої творчої кризи і на початку 1950-х рр. сконцентрувався на акторській діяльності. Вже у 1954 році він отримав премію «Оскар» як найкращий актор другого плану у фільмі «From Here to Eternity», а починаючи з 1955 року повернувся і до музичної діяльності, зайнявшись випуском нових сольних альбомів, які викликали схвальні відгуки критиків. У 1958 році він заснував власний лейбл — Reprise Records, на якому випустив альбоми Ring-A-Ding-Ding, Sinatra at the Sands та Francis Albert Sinatra &amp; Antonio Carlos Jobim тощо.
+			</p>
+			<p>
+				Пісні у виконанні Сінатри ввійшли в класику естради, за 50 років активної творчої діяльності записав близько 100 популярних синглів, виконав усі найвідоміші пісні визначних композиторів США — Джорджа Гершвіна, Кола Портера й Ірвінга Берліна.
+			</p>
+			<p>
+				У 1971 році Сінатра оголосив, що йде на пенсію, однак продовжував давати концерти. Серед пізніх його робіт виділяється хіт Theme from New York, New York, записаний у 1980 році. Останній виступ Френка Сінатри пройшов у 1994 році, коли співаку було 78 років.
+			</p>
+			<p>
+				На честь співака названо астероїд "7934 Сінатра".
+			</p>
+			
+			<div class="sngl">Сингли</div>
+			<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/395687258&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true"></iframe>
+		
+		</div>
+
+			
+
+		<div id="2singer">
+			
+			<p>
+				<strong>Peggy Lee</strong>(Норма Делоріс Егстром)— американська джазова співачка, автор пісень і акторка, номінантка на «Оскар» в 1955 році.
+			</p>
+			<p>
+				Зайнялася співом в підлітковому віці, виступаючи на місцевому радіо. Після закінчення середньої школи продовжила виступи на радіо, взявши при цьому псевдонім Пеґґі Лі. У віці 17 років пішла з дому через постійні конфлікти з мачухою і поїхала в Лос-Анджелес. Але незабаром вона повернулася в Північну Дакоту для тонзилектомії, а потім переїхала до Чикаго, де стала виступати в одному з нічних клубів. Там її помітив джазовий кларнетист і керівник знаменитого біг-бенду Бенні Гудмен, який у 1941 році запросив її в свій колектив.
+			</p>
+			<p>
+				У 1942 році Пеґґі Лі записала свій перший хіт «Somebody Else Is Taking My Place», а її наступна пісня «Why don't You Do Right?» в 1943 році продавався мільйонними тиражами і зробила її знаменитою. У 1944 році приступила до записів власних пісень на студії «Capitol Records». Там вона записала низку своїх хітів, багато з яких були написані нею самою та її чоловіком, включаючи «I don't Know About You Enough» і «it's a Good Day» (1946). У 1948 році вона записала свій супер-хіт «Mañana», після якого активно зайнялася музикою.
+			</p>
+			<p>
+				У 1952—1956 роках Пеггі Лі співпрацювала із звукозаписною компанією «Decca Records», де в 1953 році записала свій перший альбом «Black Coffee». Надалі вона повернулася на «Capitol Records», де аж до 1972 року вона майже щорічно випускала новий альбом.
+			</p> 
+			<p>
+				У 1970-х Пеггі Лі виконала для «mcdonald's» відому для багатьох американців однойменну пісню (Peggy Lee — «Mcdonald ' s Theme Song»), надалі пісня звучала в телевізійній рекламі «mcdonald's».
+			</p>
+
+			<div class="sngl">Сингли</div>
+			<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/395683286&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false"></iframe>
+			</div>
+
+		<div id="3singer">
+		<p>
+			<strong>Nat King Cole</strong>(Натанієль Адамс Коулз) американський джазовий піаніст і співак. У 2000 році його ім'я внесено у Зал 
+		слави рок-н-ролу.
+		</p>
+		<p>
+			Народився в США у Монтгомері, ймовірно, 17 березня 1919, але, як дата його народження також вказується 1915 або 1917 рік. 
+			Американський чорний джазовий музикант, обдарований теплим голосом чарівливого тембру й глибини, він почав свою кар'єру як піаніст, а згодом став відомий завдяки баладам.
+		</p>
+		<p>
+			Виріс у Чикаго. У 1937 році почав виступати в джаз-клубах Лос-Анджелеса. У 1939 році заснував King Cole Trio (з Оскаром Муром і Веслі Принцом). З часом однак відійшов від джазу, і увійшов в історію перш за все як співак, що виконував «легку і приємну» музику.
+		</p>
+		<p>
+			Через надмірну пристрасть до сигарет помер від раку легенів у віці 46 років. Дочкою Нет Кінг Коула є співачка Наталі Коул 
+			(1950, Лос-Анджелес — 31 грудня 2015 Лос-Анджелес[2]).
+ 		</p>
+		<div class="sngl">Сингли</div>
+			<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/395678021&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false"></iframe>
+		</div>
+
+
+		<div id="4singer">
+		<p>
+			<strong>Bob James</strong> (Robert McElhiney James) - американський джазовий клавішник, аранжировщик і продюсер музики в стилі Grammy. 
+		</p>
+		<p>
+			Він заснував группу Fourplay і написав пісню для телешоу Taxi. 
+		</p>
+		<p>
+			Більш відомий такими творами як «Nautilus», «Westchester Lady», «Heads», «Night Crawler», «Angela», «Touchdown», «Blue Lick», 
+			«Знак часу», «Spunky», «Marco Polo», «Courtship» і «Just One Thing». 
+		</p>
+		<p>
+			Музика з його перших трьох альбомів часто сприяла формуванню хіп-хопу.
+		</p>
+		<div class="sngl">Сингли</div>
+		<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/395711084&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false"></iframe>
+		</div>
+
+	
+
+		<div id="5singer">
+		<p>
+			<strong>Louis Prima</strong>— 7 грудня 1911 (за іншими даними, 1910), Новий Орлеан - 24 серпня 1978, Новий Орлеан — італоамериканський музикант, що зробив величезний вплив на світову популярну музику в 1930—1950-х роках, трубач, вокаліст, керівник оркестру, композитор, актор.
+		</p>
+		<p>
+			В 1993 році ім'я Луі Прими було включено в Зал Слави джазу і Зал Слави біг-бендів.
+		</p>
+		<p>
+			В дитинстві брав уроки скрипки, але в п'ятнадцять переключився на трубу, почувши записи Кінга Олівера і Луі Армстронга. Декілька місяців грав в місцевому оркестрі разом з братом Леоном. В 17 років почав грати в театрі Нового Орлеану, але незабаром був звільнений, бо його вважали недостойим для сцени через хриплий і різкий голос.
+		</p>
+		<p>
+			1934 році переїхав в Нью-Йорк на запрошення відомого музиканта Гая Ломбардо. Там Прима зібрав оркестр під назвою The New Orleans Gang і регулярно виступав в клубі «The Famous Door» на 52 вулиці. Їх пісня «Way Down Yonder in New Orleans» одразу стала хітом і була записана на пластинки незліченну кількість раз. В 1936 році він написав пісню «Sing, Sing, Sing», яка була записана оркестром Бенні Гудмена і стала воістину гімном епохи свінга.
+		</p>
+		<div class="sngl">Сингли</div>
+		<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/395314346&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false"></iframe>
+		</div>
+
+
+
+		<div id="6singer">
+		<p>
+			<strong>Marilyn Monroe</strong>(Norma Jeane Mortenson Baker) — американська кіноакторка, співачка, модель, секс-символ 1950-х.
+		</p>
+		<p>
+			Кинувши школу, Норма Джин працювала на авіаційному заводі, але кар’єра простий заводський робочої тривала в її житті зовсім недовго: в 1944 році вона познайомилася з армійським фотографом, який запропонував симпатичної молодої дівчини з прекрасною фігурою позувати йому за 5 $за годину. Норма, не роздумуючи, погодилася.
+		<p>
+			У 1946 році кіностудія «20th Century Fox» пропонує їй контракт і посаду статистки. Так вона стала знаменитою Мерилін Монро. 
+			Перший дебют у кіно відбувся вже в 1946 році, коли студія «Columbia Pictures» випустила фільм «Хористки». Хвилюючий голос Мерилін привів всіх в захоплення. «20th Century Fox» укладає з починаючої актрисою вигідний контракт на 7 років і дає їй роль у «Асфальтових джунглях».
+		</p>
+		<p>
+			У 1954 році Мерилін знялася в мюзиклі «Немає кращого бізнесу, ніж шоу-бізнес», після якого вона отримала нагороду «найпопулярніша актриса». У 1955 році Мерилін створює власну корпорацію «Мерилін Монро Продакшнс», будучи в ній власницею контрольного пакета акцій і президентом.
+		</p>
+		<div class="sngl">Сингли</div>
+		<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/395291822&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false"></iframe>
+		</div>
+
+	</div>
+
+	<section id="rock2" data-type="background" data-speed="10" class="home pages">
+		<article></article>
+	</section>
+</body>
+</html>

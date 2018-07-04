@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Log In</title>
+		<meta charset="utf-8" />
+
+		<link href="../../Zaiets/materialize/css/materialize.css" rel="stylesheet" type="text/css"/>
+		<link rel="stylesheet" type="text/css" href="../../Zaiets/font-awesome/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/style_zaiets.css" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="stylesheet" type="text/css" href="style2.css" />
+
+		<link href="../../Zaiets/img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="../../Zaiets/materialize/js/materialize.js"></script>
+		<script src="../../Zaiets/materialize/js/init.js"></script>
+	
+		<script src="js.js" defer="defer"></script>
+
+		<script src="../../Zaiets/js/js_f.js"></script>
+	</head>
+	<body  onload="loadContent()">
+		<header class="page-footer">
+			<a href="/">
+				<img src="../../Zaiets/img/logo.png" alt="logo" />
+			</a>
+			<span>MusicStore</span>
+			<div class="display-right">
+				<a href="index.html" class="button1 btn-input"></a>
+				<a href="../../Zaiets/index.html" class="button1 btn-output"></a>
+			</div>
+		</header>
+		<div id="main">
+			<div class="container">
+				<ul>
+					<li>
+						<a class="dws-submit-1" href="#login-form" onclick="return showForm(this);">Login</a>
+					</li>
+					<li>
+						<a class="dws-submit-1" href="#reg-form" onclick="return showForm(this);">Sign Up</a>
+					</li>
+				</ul>
+				<form id="login-form" onsubmit="return onLogin();">
+					<div class="dws-input">
+						<input id="login-email" type="text" name="email" placeholder="Enter email"/>
+					</div>
+					<div class="dws-input">
+						<input id="login-pass" type="password" name="password" placeholder="Enter password" />
+					</div>
+					<input class="dws-submit" type="submit" name="submit" value="Log In" />
+				</form>
+
+				<form style="display: none;" id="reg-form" onsubmit="return onRegister();">
+					<div class="dws-input-1">
+						<input type="text" id="username" name="username" placeholder="Enter name" required="required"/>
+					</div>
+					<div class="dws-input-1">
+						<input type="text" id="regemail" name="regemail" placeholder="Enter email" pattern="(https?:\/\/)?[\da-z\.\-]+@[a-z]+\.[a-z\.]{2,6}" required="required" />
+					</div>
+					<div class="dws-input-1">
+						<input type="password" id="regpass" name="regpass" placeholder="Enter password" required="required" />
+					</div>
+					<div class="dws-input-1">
+						<input type="password" id="confirmpass" name="confirmpass" placeholder="Confirm password" required="required" />
+					</div>
+	    			<div class="gender">
+	        		<input type="radio" class="switch-input" name="view" value="Female" id="Female" checked>
+	        		<label for="Female" class="switch-label switch-label-off">Female</label>
+	        		<input type="radio" class="switch-input" name="view" value="Male" id="Male">
+	        		<label for="Male" class="switch-label switch-label-on">Male</label>
+	        		<span class="switch-selection"></span>
+	    			</div>
+					<input class="dws-submit" type="submit" name="reg-submit" value="Sign Up" />
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

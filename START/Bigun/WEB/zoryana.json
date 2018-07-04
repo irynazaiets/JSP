@@ -1,0 +1,641 @@
+[{
+		"name": "Bob James - Blue Note NYC",
+		"url": "https://www.youtube.com/embed/TQg_osPasBQ",
+		"kind": "Jazz",
+		"categorie": "Relax"
+	},
+	{
+		"name": "Bluey from Incognito - Hold On ",
+		"url": "https://www.youtube.com/embed/PfLF84nP-TA?ecver=1",
+		"kind": "Jazz",
+		"categorie": "Sport"
+	},
+	{
+		"name": "INCOGNITO - Above The Night",
+		"url": "https://www.youtube.com/embed/Htx3bCShj_c?ecver=1",
+		"kind": "Jazz",
+		"categorie": "Sleeping"
+	},
+	{
+		"name": "On The Road with PHJB #7: Gabriel/Maedgen backstage duet",
+		"url": "https://www.youtube.com/embed/EAQ1IFU8Hck?ecver=1",
+		"kind": "Jazz",
+		"categorie": "Studying"
+	},
+	{
+		"name": "Diana Krall - Wallflower Album Medley",
+		"url": "https://www.youtube.com/embed/VaV_JnoAtAE?ecver=1",
+		"kind": "Jazz",
+		"categorie": "Sleeping"
+	},
+	{
+		"name": "Billie Holiday & Louis Armstrong - Dixie Music Man",
+		"url": "https://www.youtube.com/embed/rlyrBPkkXvY?ecver=1",
+		"kind": "Jazz",
+		"categorie": "Trip"
+	},
+	{
+		"name": "Ray Charles - Hit The Road Jack",
+		"url": "https://www.youtube.com/embed/0rEsVp5tiDQ?ecver=1",
+		"kind": "Jazz",
+		"categorie": "Party"
+	},
+	{
+		"name": "Frank Sinatra - I`ve Got You Under My Skin",
+		"url": "https://www.youtube.com/embed/FiSKXxWgA4w?ecver=1",
+		"kind": "Jazz",
+		"categorie": "Relax"
+	},
+	{
+		"name": "Nat King Cole -  Unforgettable",
+		"url": "https://www.youtube.com/embed/Fy_JRGjc1To?ecver=1",
+		"kind": "Jazz",
+		"categorie": "Relax"
+	},
+	{
+		"name": "Louis Prima - Just a Gigolo & I Ain't Go Nobody",
+		"url": "https://www.youtube.com/embed/O-a8kLtJSJ4",
+		"kind": "Jazz",
+		"categorie": "Party"
+	},
+	{
+		"name": "Benny Goodman - Sing Sing Sing ",
+		"url": "https://www.youtube.com/embed/Z2Z1DWIgfCs?ecver=1",
+		"kind": "Jazz",
+		"categorie": "Sport"
+	},
+	{
+		"name": "Marilyn Monroe - I Wanna Be Loved By You",
+		"url": "https://www.youtube.com/embed/WQIvhotZSUw?ecver=1",
+		"kind": "Jazz",
+		"categorie": "Studying"
+	},
+	{
+		"name": "- Israel Kamakawiwoʻole - Somewhere over the Rainbow ",
+		"url": "https://www.youtube.com/embed/V1bFr2SWP1I?ecver=1",
+		"kind": "Jazz",
+		"categorie": "Studying"
+	},
+	{
+		"name": "Ragtime Piano : SCOTT JOPLIN -  The Entertainer",
+		"url": "https://www.youtube.com/embed/fPmruHc4S9Q?ecver=1",
+		"kind": "Jazz",
+		"categorie": "Sport"
+	},
+	{
+		"name": "Frank Sinatra - Autumn Leaves",
+		"url": "https://www.youtube.com/embed/iF8z5fJfvgM?ecver=1",
+		"kind": "Jazz",
+		"categorie": "Trip"
+	},
+	{
+		"name": "Peggy Lee - Fever",
+		"url": "https://www.youtube.com/embed/s5Uw1lJ2C9U?ecver=1",
+		"kind": "Jazz",
+		"categorie": "Trip"
+	},
+	{
+		"name": "Judy Garland - Somewhere Over The Rainbow ",
+		"url": "https://www.youtube.com/embed/U016JWYUDdQ?ecver=1",
+		"kind": "Jazz",
+		"categorie": "Studying"
+	},
+	{
+		"name": "Kygo vs U2 - You're The Best Thing About Me",
+		"url": "https://www.youtube.com/embed/XqwIP1_jY-0?ecver=1",
+		"kind": "Electro",
+		"categorie": "Studying"
+	},
+	{
+		"name": "Fatboy Slim - Push The Tempo",
+		"url": "https://www.youtube.com/embed/RGpkNPbSa2Q?ecver=1",
+		"kind": "Electro",
+		"categorie": "Sport"
+	},
+	{
+		"name": "Bob Sinclar feat. Akon - Til The Sun Rise Up",
+		"url": "https://www.youtube.com/embed/HC7Ql5xoHfk?ecver=1",
+		"kind": "Electro",
+		"categorie": "Studing"
+	},
+	{
+		"name": "Dimitri Vegas & Like Mike vs David Guetta feat. Kiiara - Complicated ",
+		"url": "https://www.youtube.com/embed/w0EF3AxJwLU?ecver=1",
+		"kind": "Electro",
+		"categorie": "Relax"
+	},
+	{
+		"name": "David Guetta - One Voice feat. Mikky Ekko",
+		"url": "https://www.youtube.com/embed/PwIVlVUvQEI?ecver=1",
+		"kind": "Electro",
+		"categorie": "Trip"
+	},
+	{
+		"name": "Moncho Chavea ft. Omar Montes - Conmigo",
+		"url": "https://www.youtube.com/embed/BvkQHtsveHw?ecver=1",
+		"kind": "Electro",
+		"categorie": "Sleeping"
+	},
+	{
+		"name": "Daft Punk - Digital Love",
+		"url": "https://www.youtube.com/embed/QOngRDVtEQI?ecver=1",
+		"kind": "Electro",
+		"categorie": "Trip"
+	},
+	{
+		"name": "Martin Garrix - Pizza",
+		"url": "https://www.youtube.com/embed/JsKIAO11q1Y?ecver=1",
+		"kind": "Electro",
+		"categorie": "Sleeping"
+	},
+	{
+		"name": "deadmau5 - Some Chords",
+		"url": "https://www.youtube.com/embed/MEQMkzjcLEA?ecver=1",
+		"kind": "Electro",
+		"categorie": "Relax"
+	},
+	{
+		"name": "deadmau5 feat. Chris James - The Veldt ",
+		"url": "https://www.youtube.com/embed/_esYONwdKuw?ecver=1",
+		"kind": "Electro",
+		"categorie": "Relax"
+	},
+	{
+		"name": "Martin Garrix - Animals",
+		"url": "https://www.youtube.com/embed/gCYcHz2k5x0?ecver=1",
+		"kind": "Electro",
+		"categorie": "Party"
+	},
+	{
+		"name": "Martin Garrix & Troye Sivan - There For You",
+		"url": "https://www.youtube.com/embed/pNNMr5glICM?ecver=1",
+		"kind": "Electro",
+		"categorie": "Party"
+	},
+	{
+		"name": "Dimitri Vegas & Like Mike - Stay A While ",
+		"url": "https://www.youtube.com/embed/GGawVPg9tvE?ecver=1",
+		"kind": "Electro",
+		"categorie": "Party"
+	},
+	{
+		"name": "Armin van Buuren & Garibay - I Need You",
+		"url": "https://www.youtube.com/embed/cNDQsJlvCYI?ecver=1",
+		"kind": "Electro",
+		"categorie": "Sport"
+	},
+	{
+		"name": "Tiesto - Elements of Life",
+		"url": "https://www.youtube.com/embed/EE7CXZ1Lyu4?ecver=1",
+		"kind": "Electro",
+		"categorie": "Sport"
+	},
+	{
+		"name": "Steve Aoki, Chris Lake & Tujamo feat. Kid Ink - Delirious ",
+		"url": "https://www.youtube.com/embed/344KGcW0HRY?ecver=1",
+		"kind": "Electro",
+		"categorie": "Trip"
+	}, {
+		"name": "Imagine Dragons- Not Today",
+		"url": "https://www.youtube.com/embed/trig1MiEo1s",
+		"kind": "Rock",
+		"categorie": "Relax"
+	},
+	{
+		"name": "Epolets- Одна",
+		"url": "https://www.youtube.com/embed/gDhzHcIMinE",
+		"kind": "Rock",
+		"categorie": "Relax"
+	},
+	{
+		"name": "Breaking Benjamin- Ashes of Eden",
+		"url": "https://www.youtube.com/embed/d1yTyAh8IA8",
+		"kind": "Rock",
+		"categorie": "Relax"
+	},
+	{
+		"name": "Metallica- Enter Sandman",
+		"url": "https://www.youtube.com/embed/CD-E-LDc384",
+		"kind": "Rock",
+		"categorie": "Studying"
+	},
+	{
+		"name": "Black Veil Brides- Goodbay Agony",
+		"url": "https://www.youtube.com/embed/f-cxPIOAfSk",
+		"kind": "Rock",
+		"categorie": "Studying"
+	},
+	{
+		"name": "Dead by April- I can't breathe",
+		"url": "https://www.youtube.com/embed/riyqQmBHDgE",
+		"kind": "Rock",
+		"categorie": "Studying"
+	},
+	{
+		"name": "Imagine Dragons- Demons",
+		"url": "https://www.youtube.com/embed/ZjIARnZ8YL4",
+		"kind": "Rock",
+		"categorie": "Trip"
+	},
+	{
+		"name": "БИ-2- Три сантиметра над землёй",
+		"url": "https://www.youtube.com/embed/G80eW0TbOGM",
+		"kind": "Rock",
+		"categorie": "Trip"
+	},
+	{
+		"name": "Our Last Night- Caught In The Storm",
+		"url": "https://www.youtube.com/embed/cjgZ0dBJwTY",
+		"kind": "Rock",
+		"categorie": "Trip"
+	},
+	{
+		"name": "Breaking Benjamin- Angels Fall",
+		"url": "https://www.youtube.com/embed/9zFfRSeA1ls",
+		"kind": "Rock",
+		"categorie": "Trip"
+	},
+
+	{
+		"name": "Lumen- На части",
+		"url": "https://www.youtube.com/embed/eKvK6Z3NUj0",
+		"kind": "Rock",
+		"categorie": "Sleeping"
+	},
+	{
+		"name": "Bahroma- На глубине",
+		"url": "https://www.youtube.com/embed/c5deJSHamso",
+		"kind": "Rock",
+		"categorie": "Sleeping"
+	},
+	{
+		"name": "Metallica- Nothing Else Matters",
+		"url": "https://www.youtube.com/embed/tAGnKpE4NCI",
+		"kind": "Rock",
+		"categorie": "Sleeping"
+	},
+
+	{
+		"name": "Imagine Dragons- Believer",
+		"url": "https://www.youtube.com/embed/PM18tMOW8p4",
+		"kind": "Rock",
+		"categorie": "Sport"
+	},
+	{
+		"name": "Brutto- Середні віки",
+		"url": "https://www.youtube.com/embed/B1exW5oI-TI",
+		"kind": "Rock",
+		"categorie": "Sport"
+	},
+	{
+		"name": "Dead by April- Crying Over You",
+		"url": "https://www.youtube.com/embed/eOu3RGEl7_Y",
+		"kind": "Rock",
+		"categorie": "Sport"
+	},
+
+	{
+		"name": "Imagine Dragons- Walking The Wire",
+		"url": "https://www.youtube.com/embed/1nv9br7P7g0",
+		"kind": "Rock",
+		"categorie": "Party"
+	},
+	{
+		"name": "Антитіла- Танцюй",
+		"url": "https://www.youtube.com/embed/ThSvGCaij5Q",
+		"kind": "Rock",
+		"categorie": "Party"
+	},
+	{
+		"name": "O.TORVALD- #Нашілюдивсюди",
+		"url": "https://www.youtube.com/embed/82zroM-SPpg",
+		"kind": "Rock",
+		"categorie": "Party"
+	},
+	{
+		"name": "Federico Albanese- Disclosed",
+		"url": "https://www.youtube.com/embed/QaCBa5kLpb0",
+		"kind": "Classical",
+		"categorie": "Relax"
+	},
+	{
+		"name": "Sophie Hutchings- Yonder Promo Rell",
+		"url": "https://www.youtube.com/embed/BBHV8kgJh7I",
+		"kind": "Classical",
+		"categorie": "Relax"
+	},
+	{
+		"name": "Bruno Sanfilippo- Piano Textures 4 III",
+		"url": "https://www.youtube.com/embed/d5m9L2iosfk",
+		"kind": "Classical",
+		"categorie": "Relax"
+	},
+
+	{
+		"name": "Bruno Sanfilippo- Piano Impromptu",
+		"url": "https://www.youtube.com/embed/Inju3nwD4-k",
+		"kind": "Classical",
+		"categorie": "Studying"
+	},
+	{
+		"name": "Sophie Hutchings- Shadowed",
+		"url": "https://www.youtube.com/embed/Y3TL4_7L0bA",
+		"kind": "Classical",
+		"categorie": "Studying"
+	},
+	{
+		"name": "Federico Albanese- Carousel №3",
+		"url": "https://www.youtube.com/embed/9O5QjfugXNY",
+		"kind": "Classical",
+		"categorie": "Studying"
+	},
+
+	{
+		"name": "Olafur Arnalds- Only the Winds",
+		"url": "https://www.youtube.com/embed/9eWewdTkghM",
+		"kind": "Classical",
+		"categorie": "Trip"
+	},
+	{
+		"name": "Sophie Hutchings- The Road",
+		"url": "https://www.youtube.com/embed/Ls5hhFvVtCQ",
+		"kind": "Classical",
+		"categorie": "Trip"
+	},
+	{
+		"name": "Egor Grushin- Carpathians",
+		"url": "https://www.youtube.com/embed/qcpeH_2xG3w",
+		"kind": "Classical",
+		"categorie": "Trip"
+	},
+
+	{
+		"name": "Federico Albanese- Shadow Land Part II",
+		"url": "https://www.youtube.com/embed/fEE_jZh1mDc",
+		"kind": "Classical",
+		"categorie": "Sleeping"
+	},
+	{
+		"name": "Ludovico Einaudi- Night",
+		"url": "https://www.youtube.com/embed/k9NM-yK1C2I",
+		"kind": "Classical",
+		"categorie": "Sleeping"
+	},
+	{
+		"name": "Bruno Sanfilippo- Impromptu",
+		"url": "https://www.youtube.com/embed/KeWwX9ZMRNU",
+		"kind": "Classical",
+		"categorie": "Sleeping"
+	},
+	{
+   "name": "Arilena Ara-Nentori",
+   "url": "https://youtube.com/embed/-AKoKgVls54",
+   "kind": "Pop",
+   "categorie": "Relax"
+  },
+  
+  {
+  "name": "Ed Sheeran-Love Yourself",
+   "url": "https://youtube.com/embed/QkL-lKBnmpo",
+   "kind": "Pop",
+   "categorie": "Relax"
+  },
+  
+  {
+  "name": "Ed Sheeran-Thinking out loud",
+   "url": "https://youtube.com/embed/lp-EO5I60KA",
+   "kind": "Pop",
+   "categorie": "Relax"
+  },
+ 
+  {
+  "name": "Kygo feat. Selena Gomez - It Ain't me",
+   "url": "https://youtube.com/embed/D5drYkLiLI8",
+   "kind": "Pop",
+   "categorie": "Studying"
+  },
+  
+  {
+  "name": "ODESZA-Line of the Sight",
+   "url": "https://youtube.com/embed/8ayH60ET4U0",
+    "kind": "Pop",
+   "categorie": "Studying"
+  },
+  
+  {
+  "name": "Alan Walker-Faded",
+   "url": "https://youtube.com/embed/60ItHLz5WEA",
+   "kind": "Pop",
+   "categorie": "Studying"
+  },
+  
+  {
+  "name": "Ed Sheeran-Castle on the Hill",
+   "url": "https://youtube.com/embed/K0ibBPhiaG0",
+   "kind": "Pop",
+   "categorie": "Trip"
+  },
+  
+  {
+  "name": "Jonas Blue-Mama",
+   "url": "https://youtube.com/embed/qPTfXwPf_HM",
+   "kind": "Pop",
+   "categorie": "Trip"
+  },
+  
+  {
+  "name": "Duke Dumont-Ocean Drive",
+   "url": "https://youtube.com/embed/KDxJlW6cxRk",
+   "kind": "Pop",
+   "categorie": "Trip"
+  },
+  
+  {
+  "name": "One Republic - Apologize",
+   "url": "https://youtube.com/embed/ZSM3w1v-A_Y",
+   "kind": "Pop",
+   "categorie": "Sleeping"
+  },
+  
+  {
+  "name": "Ed Sheeran-Perfect",
+   "url": "https://youtube.com/embed/2Vv-BfVoq4g",
+   "kind": "Pop",
+   "categorie": "Sleeping"
+  },
+  
+  {
+"name": "PETIT BISCUIT- Sunset Lover",
+  "url": "https://youtube.com/embed/wuCK-oiE3rM",
+   "kind": "Pop",
+   "categorie": "Sleeping"
+  },
+
+  {
+  "name": "Maroon 5 feat. Christina Aguilera - Moves Like Jagger",
+   "url": "https://youtube.com/embed/iEPTlhBmwRg",
+   "kind": "Pop",
+   "categorie": "Sport"
+  },
+  
+  {
+  "name": "Rock Mafia - Fly or Die",
+   "url": "https://youtube.com/embed/DNnmOf2jRhk",
+   "kind": "Pop",
+   "categorie": "Sport"
+  },
+  
+  {
+  "name": "Maroon 5 - Don't Wanna Know",
+   "url": "https://youtube.com/embed/ANS9sSJA9Yc",
+   "kind": "Pop",
+   "categorie": "Sport"
+  },
+
+  {
+  "name": "Lois Fonsi & Daddy Yankee-Despacito",
+   "url": "https://youtube.com/embed/kJQP7kiw5Fk",
+   "kind": "Pop",
+   "categorie": "Party"
+  },
+  
+  {
+  "name": "MONATIK-Vitamin D",
+   "url": "https://youtube.com/embed/iib4Bmy5cow",
+   "kind": "Pop",
+   "categorie": "Party"
+  },
+  
+  {
+  "name": "Rock Maria-The Big Bang",
+   "url": "https://youtube.com/embed/5etLRgwXmh0",
+   "kind": "Pop",
+   "categorie": "Party"
+  },
+
+  {
+  "name": "ASAP Rocky-Phoenix",
+   "url": "https://youtube.com/embed/OZkAePyJO6U",
+   "kind": "Rap",
+   "categorie": "Relax"
+  },
+  
+  {
+  "name": "Мот и Бьянка - Абсолютно всё",
+   "url": "https://youtube.com/embed/m96XcFwSUpg",
+   "kind": "Rap",
+   "categorie": "Relax"
+  },
+  
+  {
+  "name": "Kanye West - Coldest Winter",
+   "url": "https://youtube.com/embed/n6rjQ9VVLDI",
+   "kind": "Rap",
+   "categorie": "Relax"
+  },
+ 
+  {
+  "name": "Баста - Сансара",
+   "url": "https://youtube.com/embed/aiCL0-U9WxI",
+   "kind": "Rap",
+   "categorie": "Studying"
+  },
+  
+  {
+  "name": "Eminem feat. Rihanna - Love the Way You Lie",
+   "url": "https://youtube.com/embed/uelHwf8o7_U",
+   "kind": "Rap",
+   "categorie": "Studying"
+  },
+  
+  {
+  "name": "Jah Khalib - Иди вслепую на свет",
+   "url": "https://youtube.com/embed/_urLz2HrCrU",
+   "kind": "Rap",
+   "categorie": "Studying"
+   },
+
+  {
+  "name": "Eminem feat. Sia - Guts over Fear",
+   "url": "https://youtube.com/embed/-0zo3vbqJOE",
+   "kind": "Rap",
+   "categorie": "Trip"
+  },
+  
+  {
+  "name": "Eminem - Kings Never Die",
+   "url": "https://youtube.com/embed/rpERSigjqXs",
+   "kind": "Rap",
+   "categorie": "Trip"
+  },
+  
+  {
+  "name": "Jay-Z - 99 problems",
+   "url": "https://youtube.com/embed/6uikJTnmtgw",
+   "kind": "Rap",
+   "categorie": "Trip"
+  },
+
+  {
+  "name": "Jah Khalib - Созвездие Ангела",
+   "url": "https://youtube.com/embed/b0hqaAB8O7c",
+   "kind": "Rap",
+   "categorie": "Sleeping"
+  },
+  
+  {
+  "name": "Eminem - Beautiful",
+   "url": "https://youtube.com/embed/lgT1AidzRWM",
+   "kind": "Rap",
+   "categorie": "Sleeping"
+  },
+  
+  {
+  "name": "Мот - Ливень",
+   "url": "https://youtube.com/embed/1PnVdJgCRJw",
+  "kind": "Rap",
+   "categorie": "Sleeping"
+  },
+ 
+  {
+  "name": "Kanye West - Stronger",
+   "url": "https://youtube.com/embed/PsO6ZnUZI0g",
+   "kind": "Rap",
+   "categorie": "Sport"
+  },
+  
+  {
+  "name": "Eminem - I'm not Afraid",
+   "url": "https://youtube.com/embed/j5-yKhDd64s",
+   "kind": "Rap",
+   "categorie": "Sport"
+  },
+  
+  {
+  "name": "ASAP Rocky - Everyday",
+   "url": "https://youtube.com/embed/UtZBA1bVbcs",
+   "kind": "Rap",
+   "categorie": "Sport"
+   },
+
+  {
+  "name": "Элджей - Розовое вино",
+   "url": "https://youtube.com/embed/S9oXj3a4gZ4",
+   "kind": "Rap",
+   "categorie": "Party"
+  },
+  
+  {
+  "name": "T-Fest feat. Скриптонит - Ламбада",
+   "url": "https://youtube.com/embed/4-Pp-MEdKIA",
+   "kind": "Rap",
+   "categorie": "Party"
+  },
+  
+  {
+  "name": "Jah Khalib-Если чё, я баха",
+   "url": "https://youtube.com/embed/0qgocuzJ4tk",
+   "kind": "Rap",
+   "categorie": "Party"
+  }
+]

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<title>USERPAGE</title>
+
+	
+	<link href="user2.css" rel="stylesheet">
+	<!--<link href="materialize/css/materialize.css" rel="stylesheet" type="text/css"/>-->
+	<link href="favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+	
+	<script src="js.js" defer="defer"></script>
+	<script src="js/js_2.js" defer="defer"></script>
+	<script src="js_footer.js" defer="defer"></script>
+	<script src="materialize/js/materialize.js"></script>
+	<script src="materialize/js/init.js"></script>
+         
+
+</head>
+<body style="background-image:url('bg.jpg'); background-size:100%;" class="container-fluid full" onload="loadContent()">
+	<header class="page-footer">
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+				<a class="navbar-brand" href="http://leofun01.pp.ua/musicstore/Zaiets/index.html"><img src="logo.png" class="img-circle" alt="LOGO"  width="13%"></a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">MyPage</a></li>
+					
+					<li><a href="#">Contact</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="http://leofun01.pp.ua/musicstore/Zvizdetska/index/index.html"><span class="glyphicon glyphicon-log-in"></span> LogOut</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</header>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div height="150%" class="col-sm-2 sidenav">
+	<img src="user.jpg" class="img-circle">
+	<div  class="well">
+      <p>Name</p>
+	 <p>Surname</p>
+      <p>Sex</p>
+  </div>
+  </div>
+    <div  id="maincontent" class="col-sm-8 text-left"> 
+		<h1>Welcome</h1>
+		<h1 class="bg-success"><a href="http://leofun01.pp.ua/musicstore/Bobrova/favourites.html" >Your playlist</a></h1>
+		<hr>
+    	<div id="iframes">
+			<!-- <iframe src="footer.html" style="border:2px solid grey;height: 300px;width:100%"></iframe> -->
+			<iframe id="iframe1" style="width: 100%; height: 500px" src=""></iframe>
+			<!-- <iframe id="iframe2" style="width: 45%; height: 500px" src=""></iframe> -->
+		</div>
+      	    
+    </div>
+    <div class="col-sm-2 sidenav">
+    	<h4><div class="well">Search music </div></h4>
+      <div>
+       
+	<form onsubmit="return searchMusic(this);">
+		<fieldset class="well" id="checkboxList">
+			<div>
+				<input type="checkbox" checked="checked" id="rock-box" value="1" name="Rock"/>  Rock
+				<label for="rock-box"></label>
+			</div>
+			<div>
+				<input type="checkbox" checked="checked" id="rap-box" value="2" name="Rap"/>  Rap
+				<label for="rap-box"></label>
+
+			</div>
+			<div>
+				<input type="checkbox" checked="checked" id="jazz-box" value="3" name="Jazz"/>  Jazz
+				<label for="jazz-box"></label> 
+
+			</div>
+			<div>
+				<input type="checkbox" checked="checked"  id="electro-box" value="4" name="Electro"/>  Electro
+			<label for="electro-box"></label>
+
+			</div>
+			<div>
+				<input type="checkbox" checked="checked" id="classical-box" value="5" name="Classical"/>  Classical
+				<label for="classical-box"></label>
+
+			</div>
+			<div>
+				<input type="checkbox" checked="checked" id="pop-box" value="6" name="Pop"/>  Pop
+				<label for="pop-box"></label>
+
+			</div>
+		</fieldset>
+
+		<hr />
+
+		<fieldset class="well" id="checkboxList2">
+			<div>
+				<input type="checkbox" checked="checked" id="sleeping-box" value="1" name="Sleeping"/>  Sleeping
+				<label for="sleeping-box"></label>
+			</div>
+			<div>
+				<input type="checkbox" checked="checked" id="trip-box" value="2" name="Trip"/>  Trip
+				<label for="trip-box"></label>
+
+			</div>
+			<div>
+				<input type="checkbox" checked="checked" id="studying-box" value="3" name="Studying"/>  Studying
+				<label for="studying-box"></label> 
+
+			</div>
+			<div>
+				<input type="checkbox" checked="checked"  id="relax-box" value="4" name="Relax"/>  Relax
+			<label for="relax-box"></label>
+
+			</div>
+			<div>
+				<input type="checkbox" checked="checked" id="sport-box" value="5" name="Sport"/>  Sport
+			<label for="sport-box"></label>
+			</div>
+			<div>
+				<input type="checkbox" checked="checked" id="party-box" value="6" name="Party"/>  Party
+				<label for="party-box"></label>
+
+			</div>
+		</fieldset>
+		
+		<input type="submit" value="Search"></input>
+
+	</form>
+
+	</div>
+	</div>
+	</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="materialize/js/materialize.js"></script>
+	<script src="materialize/js/init.js"></script>
+	<footer class="page-footer">
+		 
+	</footer>
+	
+</body>
+</html>

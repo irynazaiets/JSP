@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js.js" defer="defer"></script>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active">
+        <img src="content/jazz.jpeg" alt="Jazz" width="460" height="345">
+        <div class="carousel-caption">
+          <a href="javascript:location.replace('content/jazz1.html')"><h3>Jazz</h3></a>
+
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="content/pop.jpeg" alt="Pop" width="460" height="345">
+        <div class="carousel-caption">
+          <a href="javascript:location.replace('content/pop1.html')"><h3>Pop</h3></a>
+        </div>
+      </div>
+    
+	<div class="item">
+        <img src="content/rap.jpeg" alt="Rap" width="460" height="345">
+        <div class="carousel-caption">
+          <a href="javascript:location.replace('content/rap1.html')"><h3>Rap</h3></a>
+        </div>
+      </div>
+	  
+	  <div class="item">
+        <img src="content/class.jpeg" alt="Class" width="460" height="345">
+        <div class="carousel-caption">
+          <a href="javascript:location.replace('content/class1.html')"><h3>Classical</h3></a>
+        </div>
+      </div>
+	
+      <div class="item">
+        <img src="content/rock.jpeg" alt="Rock" width="460" height="345">
+        <div class="carousel-caption">
+          <a href="javascript:location.replace('content/rock1.html')"><h3>Rock</h3></a>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="content/electro.jpeg" alt="Electro" width="460" height="345">
+        <div class="carousel-caption">
+          <a href="javascript:location.replace('content/electro1.html')"><h3>Electro</h3></a>
+        </div>
+      </div>
+   
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+</body>
+</html>

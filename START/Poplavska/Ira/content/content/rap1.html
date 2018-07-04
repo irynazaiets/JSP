@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Rap</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+	<!-- <link href="img/logo.png" rel="" type="image/x-icon"/> -->
+
+	<link rel="shortcut icon" href="../../../../Zaiets/img/favicon.ico" type="image/x-icon"/>
+	<link rel="stylesheet" href="../../../../Zaiets/materialize/css/materialize.css" type="text/css"/>
+	<link rel="stylesheet" href="../../../../Zaiets/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="rapstyle.css" />
+	<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700" rel="stylesheet">
+	<!-- Scripts
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	-->
+	<script src="../../../../Zaiets/materialize/js/materialize.js"></script>
+	<script src="../../../../Zaiets/materialize/js/init.js"></script>         
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="../../../../Zaiets/js/js_f.js"></script>
+	<script src="js.js"></script>
+</head>
+<body onload="loadFooter()">
+	<header class="page-footer">
+		<a href="/">
+			<img src="../../../../Zaiets/img/logo.png" alt="logo" src="index.html"/>
+		</a>
+		<span>MusicStore</span>
+		<div class="display-right">
+			<a href="../../../../zviz/index/index.html" class="button1 btn-input"></a>
+			<a href="../../../../Zaiets/index.html" class="button1 btn-output"></a>
+		</div>
+	</header>
+
+
+	<section id="rap1" data-type="background" data-speed="10" class="home pages">
+		<article><p><a href="#top">RAP</a></p></article>
+	</section>
+	<p><a name="top"></a></p>
+	<div class="buttons-list half-border-radius">
+		<button onclick="addEffectCurrentSinger('qum')"><img src="img/qum.png" alt="Question" class="icon" /></button>
+		<button onclick="addEffectCurrentSinger('history')"><img src="img/history.png" alt="History" class="icon" /></button>
+		<button onclick="addEffectCurrentSinger('singer')"><img src="img/rap/rap.png" alt="Rap" class="icon" /></button>
+	</div>
+	<div id="qum">
+		<h3>Що таке Реп</h3>
+		<div>
+			<p>
+				<strong>Реп</strong>— ритмічний речитатив, зазвичай читається під музику з важким бітом. Виконавець репу називається репером, або загальнішим терміном MC. Як і джаз та реггі традиційно вважається «музикою чорних». Є основоположним елементом хіп-хопу. Також частково використовується в інших жанрах. Багато виконавців драм-н-бейс використовують реп. У рок-музиці він зустрічається в таких жанрах, як репкор та нью-метал. Поп-музиканти та виконавці сучасного R'n'B також нерідко використовують реп у своїх композиціях.
+			</p>
+		</div>
+	</div>
+
+	<div id="history">
+		<h3>Історія</h3>
+		<div>
+			<p>
+				Реп в його сучасному вигляді з'явився в 1970-х роках серед афроамериканців району Бронкс, куди його «експортували» приїжджі ямайські ді-джеї. Зокрема, родоначальником репу називають DJ Kool Herc[1]. Читали реп спочатку не в комерційних цілях, а заради задоволення і робили це спочатку в основному ді-джеї. Це були нехитрі римовані куплети, звернені до аудиторії.
+			</p>
+			<p>
+				Поширенню репу сильно посприяло афроамериканське любительське радіо, яке крутило музику, модну серед чорношкірих, і швидко підхопило новий стиль. Слова «реп» і «репери» міцно закріпилися за стилем завдяки треку The Sugarhill Gang «Rapper's Delight» (1979). Одним з перших, кого почали називати «репером», був радіоведучий Джек Гібсон на прізвисько Джек-Репер. Він організував один з перших конвентів, присвячених репу.
+			</p>
+			<p>
+				Виконання римованих текстів прямо на вулицях донині залишається традицією чорних кварталів. Крім того, влаштовувалися «Баттли» — словесні поєдинки, в яких два репера змагалися, зберігаючи риму і ритм. Баттли можуть бути і не тільки лайкою, це може бути поданням заримованого тексту на певну тему.
+			</p>
+		</div>
+	</div>
+
+	<div id="singer">
+		<h3>Відомі реп-виконавці</h3>
+		<div class="buttons-list">
+			<button  onclick="addEffectCurrentSinger('1singer');"><h2>Eminem</h2></button> 
+			<button  onclick="addEffectCurrentSinger('2singer');"><h2>Asap Rocky</h2></button> 
+			<button  onclick="addEffectCurrentSinger('3singer');"><h2>Мот</h2></button> 
+			<button  onclick="addEffectCurrentSinger('4singer');"><h2>Jah Khalib</h2></button> 
+			<button  onclick="addEffectCurrentSinger('5singer');"><h2>Kanye West</h2></button>
+			<button  onclick="addEffectCurrentSinger('6singer');"><h2>Скриптонит</h2></button> 
+		</div>
+
+		<div id="1singer">
+			<p>
+				Маршалл Брюс Метерз ІІІ, більш відомий під сценічним псевдонімом <strong>Eminem</strong> – американський репер, музичний продюсер, композитор і актор. У 2000-х роках у Сполучених Штатах його творів було продано найбільше.
+			</p>
+			<p>
+				Коли Маршал був підлітком, він почув альбом Beastie Boys Licensed to Ill, після чого він захопився хіп-хопом, і з чотирнадцяти років почав читати реп під псевдонімом «M&amp;M» та організував групу «Bassmint Productions», яка видала свій перший міні-альбом «Steppin' Onto The Scene». Пізніше вони змінили назву на «Soul Intent» і впродовж 1995 року видали свій перший сингл «Fuckin' Backstabber» під лейблом Mashin' Duck Records. Маршала тричі залишали в 9 класі, і після частих пропусків вигнали зі школи у віці 17 років.
+			</p>
+			<p>
+				Емінема часто критикували за копіювання стилів читання репу інших артистів. Емінем пізніше пояснив «Це очевидно, я був молодий і перебував під впливом інших артистів. Це був перехідний вік.З виходом The Slim Shady EP Маршала звинуватили у підробленні стилю андерґраунд-репера Cage.
+			</p>
+			<p>
+				після укладення контракту з Aftermath Entertainment/Interscope Records 1999 року, Eminem видав свій перший студійний альбом The Slim Shady LP. Альбом став одним з найпопулярніших 1999 року і асоціація RIAA наприкінці року сертифікувала його потрійно платиновим]. До сьогодні у США продано більше 4 мільйонів примірників.
+			</p>
+			<div class="sngl">Сингли</div>
+			<iframe width="100%" height="600" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/391522358&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false"></iframe>
+		</div>
+
+		<div id="2singer">
+			<p>
+				Ракім Майерс , більш відомий як <strong>Asap Rocky</strong> (стилізовано як A$AP Rocky) - американський репер.
+			</p>
+			<p>
+				Коли йому було 12 років, його батько потрапив до в'язниці за торгівлю наркотиками. Рік потому старший брат був убитий біля свого будинку, що спонукало Майерса всерйоз зайнятися репом. Він почав читати реп у віці 8 років, був шанувальником реп- гурту The Diplomats; на нього вплинула музика Three 6 Mafia, Mobb Deep , Wu-Tang Clan, UGK і Bone Thugs - n - Harmony. В 2007 році він приєднався до угруповання A$AP (Always Strive and Prosper) і взяв псевдонім A$AP Rocky.
+			</p>
+			<p>
+				У серпні 2011 року в Інтернеті з'явився сингл «Peso», який через кілька тижнів увійшов в плейліст найбільшої радіостанції Нью-Йорку Hot 97. Музичні кліпи на пісні «Peso» і «Purple Swag» викликали ажіотаж, що призвів до підписання контракту з Sony / RCA на 3 мільйони доларів. У жовтні A$AP Rocky випустив мікстейп Long.Live.A$ap, який увійшов у десятку найкращих альбомів року за версією Stereogum.
+			</p>
+			<div class="sngl">Сингли</div>
+			<iframe width="100%" height="600" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/391529642&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false"></iframe>
+		</div>
+
+		<div id="3singer">
+			<p>
+				Матвій Олександрович Мельников, быльш выдомий як <strong>Мот</strong>— реп-виконавець, колишный учасник музичного проекту "Soul Kitchen" Матвій Мельников народився в Кримську. Після 9 класів навчання в школі, в віці пятнадцяти років, переїхав в Москву. Тоді почалось його захоплення хип-хопом, паралельно він займався вокалом і танцями. В школі брав участь в театральних виставах. Закінчивши школу з золотою медаллю вступив до МГУ на спеціальність економіст-менеджер.
+			</p>
+			<p>
+				Перші пісні Мот почав писати в 2006 році: вони являли собою глузливі фристайли, посвячені рісійському репу. Пізніше музикант почав писати серйозніші тексти на музику Касты и CunninLynguists. В 2007 році Матвій почав записувати пісні на студії GLSS. Дебютний альбом Мота вийшов в січні 2011 року о отримав назву Remote. В лютому 2012 року побачив світ другий альбом Мота — «Ремонт». В нього ввійшло 11 треків, а в записі взяли участь запрошені виконавці.
+			</p>
+			<p>
+				В середині січня 2013 року Мот покидає «Soul Kitchen» і стає артистом лейбла «Black Star Inc.». 14 березня 2016 року вийшов четвертий студійний альбом «Наизнанку». Він включє в себе спільні пісні з Jah Khalib, Бьянкою та ін.
+			</p>
+			<div class="sngl">Сингли</div>
+			<iframe width="100%" height="500" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/391514315&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false"></iframe>
+		</div>
+
+		<div id="4singer">
+			<p>
+				<strong>Jah Khalib</strong>(справжнє ім'я Бахтіяр Мамедов) — казахський російськомовний репер, співак, бітмейкер і продюсер казахсько-азербайджанського походження.
+			</p>
+			<p>
+				Навчався в музичній школі по класу саксофона. Закінчив факультет музикознавства і менеджменту Казахської національної консерваторії імені Курмангази. Розпочавши сольну кар'єру взяв собі сценічне ім'я Jah Khalib, де, за його словами, Khalib — це придумане ім'я, а Jah (Джа) — ім'я Бога в растафаріанстві. Велику популярність отримав завдяки соціальним мережам, де й поширювалися його треки — «Твои сонные глаза», «SnD», «Сжигая дотла», «Ты для меня». Незабаром виконавець став популярним не тільки в Казахстані, а й у інших країнах пострадянського простору.
+			</p>
+			<p>
+				У 2016 році випустив повноцінний сольний альбом «Если че, я Баха». Навесні наступного року зняв кліп на композицію «Лейла».У червні 2017 року став лауреатом премії МУЗ-ТВ у номінації «Прорив року».
+			</p>
+			<div class="sngl">Сингли</div>
+			<iframe width="100%" height="600" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/391532132&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false"></iframe>
+		</div>
+
+		<div id="5singer">
+			<p>
+				<strong>Kanye West</strong>— американський музичний продюсер і репер, багатократний володар нагород «Греммі». Він випустив дебютний альбом «The College Dropout» в 2004 році, другий альбом «Late Registration» в 2005, і, нарешті, третій альбом «Graduation» в 2007. Всі три роботи отримали безліч винагород (у тому числі дев'ять «Греммі»), критичні відгуки і комерційний успіх. Вест також запустив власний лейбл GOOD Music.
+			</p>
+			<p>
+				Талісманом і торговельною маркою Веста є іграшковий ведмідь, зображення якого з'являлися на обкладинках його трьох альбомів.
+			</p>
+			<div class="sngl">Сингли</div>
+			<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/391533257&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false"></iframe>
+		</div>
+
+		<div id="6singer">
+			<p>
+				Аділь Оралбекович Жалелов, більш відомий під сценічним псевдонімом <strong>Скриптонит</strong> — казахстанський реп-виконавець та бітмейкер, учасник лейблу Gazgolder. Вперше голосно заявивши про себе в 2013 році відеокліпом на пісню «VBVVCTND», через два роки Скриптонит випустив свій дебютний альбом «Дом с нормальными явлениями», який став одним з найуспішніших російськомовних реп-альбомів 2015 року.
+			</p>
+			<p>
+				Ще до підписання контракту з Gazgolder'ом Скриптонит встиг випустити кілька синглів, які стали хітами, і обзавестися фанатами своєї творчості, а також прославився як виконавець «справжньої» треп-музики. У 2013 році Скриптонит спільно з Niman'му випустив відеокліп до пісні «VBVVCTND» (розшифровується як «Вибір без варіантів — все, що ти нам дав»). Після цього ним зацікавився російський продюсерський центр Gazgolder. 27 лютого 2014 року стало відомо, що Скриптонит став резидентом цього лейблу. Згодом Скриптонит зізнається, що саме 2014 рік став переломним в його житті.
+			</p>
+			<div class="sngl">Сингли</div>
+			<iframe width="100%" height="550" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/391537010&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false"></iframe>
+		</div>
+	</div>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+
+				<div class="item active">
+					<img src="content/img/jazz/jazz.jpeg" alt="Jazz">
+					<div class="carousel-caption">
+						<a href="content/jazz1.html"><h3>Jazz</h3></a>
+
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="content/img/pop/pop.jpeg" alt="Pop">
+					<div class="carousel-caption">
+						<a href="content/pop1.html"><h3>Pop</h3></a>
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="content/img/rap/rap.jpeg" alt="Rap">
+					<div class="carousel-caption">
+						<a href="content/rap1.html"><h3>Rap</h3></a>
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="content/img/class/class.jpeg" alt="Class">
+					<div class="carousel-caption">
+						<a href="content/class1.html"><h3>Classical</h3></a>
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="content/img/rock/rock.jpeg" alt="Rock">
+					<div class="carousel-caption">
+						<a href="content/rock1.html"><h3>Rock</h3></a>
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="content/img/electro/electro.jpeg" alt="Electro">
+					<div class="carousel-caption">
+						<a href="content/electro1.html"><h3>Electro</h3></a>
+					</div>
+				</div>
+
+			</div>
+
+			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	<section id="rap2" data-type="background" data-speed="10" class="home pages">
+		<article></article>
+	</section>
+	
+</body>
+</html>
